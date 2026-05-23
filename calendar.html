@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan. Share. Win. - Team Calendar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: slideDown 0.6s ease-out;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #1a2332;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .header p {
+            font-size: 28px;
+            color: #4a5568;
+            font-weight: 500;
+        }
+
+        .calendar-wrapper {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+            padding: 40px;
+            animation: slideUp 0.6s ease-out;
+        }
+
+        .calendar-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .view-selector {
+            display: flex;
+            gap: 8px;
+            background: #f0f4f8;
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        .view-btn {
+            padding: 8px 20px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #718096;
+            transition: all 0.3s ease;
+        }
+
+        .view-btn.active {
+            background: white;
+            color: #2d3748;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .view-btn:hover {
+            color: #2d3748;
+        }
+
+        .status-indicators {
+            display: flex;
+            gap: 16px;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #4a5568;
+        }
+
+        .status-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .status-sync {
+            background: #e6ffed;
+            color: #22863a;
+        }
+
+        .status-sync::after {
+            content: "✓";
+        }
+
+        .status-reschedule {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-reschedule::after {
+            content: "⏱";
+        }
+
+        .month-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .month-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a2332;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            width: 40px;
+            height: 40px;
+            border: none;
+            background: #f0f4f8;
+            color: #4a5568;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-btn:hover {
+            background: #e2e8f0;
+            color: #2d3748;
+            transform: scale(1.05);
+        }
+
+        .nav-btn:active {
+            transform: scale(0.95);
+        }
+
+        .calendar-grid {
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .weekdays {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            background: #f7fafc;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .weekday {
+            padding: 16px;
+            text-align: center;
+            font-weight: 600;
+            color: #4a5568;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .dates {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 1px;
+            background: #e2e8f0;
+            padding: 1px;
+        }
+
+        .date-cell {
+            aspect-ratio: 1 / 1.2;
+            background: white;
+            padding: 12px;
+            position: relative;
+            min-height: 100px;
+            overflow: hidden;
+        }
+
+        .date-number {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .date-cell.other-month .date-number {
+            color: #cbd5e0;
+        }
+
+        .event-container {
+            flex: 1;
+            overflow-y: auto;
+            max-height: 60px;
+        }
+
+        .event {
+            padding: 6px 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .event:hover {
+            transform: translateX(2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .event-avatar {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 700;
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .event-text {
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .event-blue {
+            background: linear-gradient(135deg, #5b9cff 0%, #3b7dd9 100%);
+        }
+
+        .event-yellow {
+            background: linear-gradient(135deg, #ffc857 0%, #ffb11d 100%);
+        }
+
+        .event-green {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+        }
+
+        .event-orange {
+            background: linear-gradient(135deg, #ff9800 0%, #e67e22 100%);
+        }
+
+        .event-teal {
+            background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+        }
+
+        .add-event-btn {
+            width: 100%;
+            padding: 16px;
+            margin-top: 24px;
+            background: linear-gradient(135deg, #5b9cff 0%, #3b7dd9 100%);
+            color: white;
+            border: none;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .add-event-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(91, 156, 255, 0.4);
+        }
+
+        .add-event-btn:active {
+            transform: translateY(0);
+        }
+
+        .plus-icon {
+            font-size: 20px;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 32px;
+            }
+
+            .header p {
+                font-size: 20px;
+            }
+
+            .calendar-wrapper {
+                padding: 20px;
+            }
+
+            .calendar-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .status-indicators {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .date-cell {
+                min-height: 80px;
+            }
+
+            .month-title {
+                font-size: 24px;
+            }
+        }
+
+        .today {
+            background: #f0f4f8;
+        }
+
+        .today .date-number {
+            color: #3b7dd9;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Plan. Share. Win.</h1>
+            <p>A Calendar UI That Brings Teams Together</p>
+        </div>
+
+        <div class="calendar-wrapper">
+            <div class="calendar-controls">
+                <div class="view-selector">
+                    <button class="view-btn active">Day</button>
+                    <button class="view-btn">Week</button>
+                    <button class="view-btn">Month</button>
+                </div>
+                <div class="status-indicators">
+                    <div class="status-item">
+                        <span class="status-icon status-sync"></span>
+                        In Sync
+                    </div>
+                    <div class="status-item">
+                        <span class="status-icon status-reschedule"></span>
+                        1 Task Rescheduled
+                    </div>
+                </div>
+            </div>
+
+            <div class="month-header">
+                <div class="month-title">July 2023</div>
+                <div class="nav-buttons">
+                    <button class="nav-btn">‹</button>
+                    <button class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <div class="calendar-grid">
+                <div class="weekdays">
+                    <div class="weekday">Su</div>
+                    <div class="weekday">Mo</div>
+                    <div class="weekday">Tu</div>
+                    <div class="weekday">We</div>
+                    <div class="weekday">Th</div>
+                    <div class="weekday">Fr</div>
+                    <div class="weekday">Sa</div>
+                </div>
+
+                <div class="dates">
+                    <!-- Previous month dates -->
+                    <div class="date-cell other-month">
+                        <span class="date-number">25</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">26</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">27</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">28</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">29</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">30</span>
+                    </div>
+
+                    <!-- July dates -->
+                    <div class="date-cell">
+                        <span class="date-number">1</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">2</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">3</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">4</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">5</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">6</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">7</span>
+                        <div class="event-container">
+                            <div class="event event-blue">
+                                <span class="event-avatar">👤</span>
+                                <span class="event-text">Team sync</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="date-cell">
+                        <span class="date-number">8</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">9</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">10</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">11</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">12</span>
+                        <div class="event-container">
+                            <div class="event event-yellow">
+                                <span class="event-avatar">👨</span>
+                                <span class="event-text">Project review</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">13</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">14</span>
+                        <div class="event-container">
+                            <div class="event event-yellow">
+                                <span class="event-avatar">👨</span>
+                                <span class="event-text">Design sprint</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="date-cell">
+                        <span class="date-number">15</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">16</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">17</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">18</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">19</span>
+                        <div class="event-container">
+                            <div class="event event-green">
+                                <span class="event-avatar">👩</span>
+                                <span class="event-text">Sprint planning</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">20</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">21</span>
+                    </div>
+
+                    <div class="date-cell">
+                        <span class="date-number">22</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">23</span>
+                        <div class="event-container">
+                            <div class="event event-blue">
+                                <span class="event-avatar">👨</span>
+                                <span class="event-text">1:1 meeting</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">24</span>
+                        <div class="event-container">
+                            <div class="event event-green">
+                                <span class="event-avatar">👩</span>
+                                <span class="event-text">Team building</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">25</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">26</span>
+                        <div class="event-container">
+                            <div class="event event-orange">
+                                <span class="event-avatar">👨</span>
+                                <span class="event-text">Deadline</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">27</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">28</span>
+                        <div class="event-container">
+                            <div class="event event-yellow">
+                                <span class="event-avatar">👨</span>
+                                <span class="event-text">Presentation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="date-cell">
+                        <span class="date-number">29</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">30</span>
+                    </div>
+                    <div class="date-cell">
+                        <span class="date-number">31</span>
+                    </div>
+
+                    <!-- Next month dates -->
+                    <div class="date-cell other-month">
+                        <span class="date-number">1</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">2</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">3</span>
+                    </div>
+                    <div class="date-cell other-month">
+                        <span class="date-number">4</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="add-event-btn">
+                <span class="plus-icon">+</span>
+                Add Task/Event
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Interactive functionality
+        document.querySelectorAll('.view-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        document.querySelectorAll('.event').forEach(event => {
+            event.addEventListener('click', function() {
+                alert('Event: ' + this.querySelector('.event-text').textContent);
+            });
+        });
+
+        document.querySelector('.add-event-btn').addEventListener('click', function() {
+            alert('Add Task/Event dialog would open here');
+        });
+
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                alert('Navigate calendar');
+            });
+        });
+    </script>
+</body>
+</html>

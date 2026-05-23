@@ -1,0 +1,817 @@
+{
+    "users": {
+        "admin": {
+            "id": "admin",
+            "password": "admin123",
+            "role": "admin",
+            "profile": {
+                "name": "Administrator",
+                "email": "admin@cardbuilder.com",
+                "created": "2024-01-01",
+                "lastLogin": "2026-02-08 15:18:06"
+            }
+        },
+        "user1": {
+            "id": "user1",
+            "password": "pass123",
+            "role": "user",
+            "profile": {
+                "name": "John Doe",
+                "email": "john@example.com",
+                "created": "2024-01-15",
+                "lastLogin": null
+            }
+        },
+        "vasanth": {
+            "id": "vasanth",
+            "password": "Kani@8110u",
+            "role": "user",
+            "security_question": "pet",
+            "security_answer": "arjun",
+            "profile": {
+                "name": "Vasanth kumar",
+                "email": "baab@gmail.com",
+                "created": "2026-02-08 14:43:52",
+                "lastLogin": "2026-02-08 15:17:53"
+            }
+        }
+    },
+    "materials": {
+        "specialPaper": [
+            {
+                "id": "art-card",
+                "name": "Art Card",
+                "description": "Premium quality paper with smooth finish",
+                "price": 50,
+                "available": true,
+                "category": "premium"
+            },
+            {
+                "id": "kraft-paper",
+                "name": "Kraft Paper",
+                "description": "Eco-friendly rustic brown paper",
+                "price": 40,
+                "available": true,
+                "category": "eco"
+            },
+            {
+                "id": "pvc-card",
+                "name": "PVC Card",
+                "description": "Durable waterproof plastic card",
+                "price": 80,
+                "available": true,
+                "category": "plastic"
+            },
+            {
+                "id": "metallic-card",
+                "name": "Metallic Card",
+                "description": "Premium metallic finish with shimmer",
+                "price": 120,
+                "available": true,
+                "category": "premium"
+            },
+            {
+                "name": "PAPER 1",
+                "price": 20,
+                "description": "NIL SDJS",
+                "available": true,
+                "id": "specialPaper_698852beba71c"
+            }
+        ],
+        "paper": [
+            {
+                "id": "300",
+                "name": "300 GSM",
+                "description": "Standard thickness",
+                "price": 0,
+                "available": true
+            },
+            {
+                "id": "350",
+                "name": "350 GSM",
+                "description": "Premium thickness",
+                "price": 10,
+                "available": true
+            },
+            {
+                "id": "400",
+                "name": "400 GSM",
+                "description": "Extra thick premium",
+                "price": 20,
+                "available": true
+            },
+            {
+                "id": "450",
+                "name": "450 GSM",
+                "description": "Ultra-thick luxury",
+                "price": 30,
+                "available": true
+            }
+        ],
+        "printColor": [
+            {
+                "id": "single-sided",
+                "name": "Single Sided",
+                "description": "Print on front only",
+                "price": 0,
+                "available": true
+            },
+            {
+                "id": "double-sided",
+                "name": "Double Sided",
+                "description": "Print on both sides",
+                "price": 15,
+                "available": true
+            },
+            {
+                "id": "full-color",
+                "name": "Full Color",
+                "description": "Vibrant full-color printing",
+                "price": 25,
+                "available": true
+            },
+            {
+                "id": "spot-uv",
+                "name": "Spot UV",
+                "description": "Selective glossy coating",
+                "price": 40,
+                "available": true
+            }
+        ],
+        "lamination": [
+            {
+                "id": "matte",
+                "name": "Matte Lamination",
+                "description": "Non-reflective smooth finish",
+                "price": 15,
+                "available": true
+            },
+            {
+                "id": "glossy",
+                "name": "Glossy Lamination",
+                "description": "Reflective shiny finish",
+                "price": 20,
+                "available": true
+            },
+            {
+                "id": "velvet",
+                "name": "Velvet Lamination",
+                "description": "Soft touch premium finish",
+                "price": 35,
+                "available": true
+            }
+        ],
+        "effect": [
+            {
+                "id": "none",
+                "name": "No Effects",
+                "description": "Standard finish",
+                "price": 0,
+                "available": true
+            },
+            {
+                "id": "foil-stamping",
+                "name": "Foil Stamping",
+                "description": "Metallic foil accents",
+                "price": 35,
+                "available": true
+            },
+            {
+                "id": "embossing",
+                "name": "Embossing",
+                "description": "Raised texture design",
+                "price": 30,
+                "available": true
+            },
+            {
+                "id": "laser-engraving",
+                "name": "Laser Engraving",
+                "description": "Precision laser cutting",
+                "price": 50,
+                "available": true
+            }
+        ],
+        "corner": [
+            {
+                "id": "square",
+                "name": "Square",
+                "description": "Traditional sharp corners",
+                "price": 0,
+                "available": true
+            },
+            {
+                "id": "rounded",
+                "name": "Rounded",
+                "description": "Smooth rounded corners",
+                "price": 5,
+                "available": true
+            },
+            {
+                "id": "die-cut",
+                "name": "Die Cut",
+                "description": "Custom shape cutting",
+                "price": 25,
+                "available": true
+            }
+        ]
+    },
+    "compatibility": {
+        "rules": [
+            {
+                "from": "specialPaper",
+                "to": "paper",
+                "allowed": {
+                    "art-card": [
+                        "300",
+                        "350",
+                        "400",
+                        "450"
+                    ],
+                    "kraft-paper": [
+                        "300",
+                        "350"
+                    ],
+                    "pvc-card": [
+                        "400",
+                        "450"
+                    ],
+                    "metallic-card": [
+                        "350",
+                        "400",
+                        "450"
+                    ]
+                }
+            },
+            {
+                "from": "paper",
+                "to": "printColor",
+                "allowed": "all"
+            },
+            {
+                "from": "printColor",
+                "to": "lamination",
+                "allowed": "all"
+            },
+            {
+                "from": "lamination",
+                "to": "effect",
+                "allowed": "all"
+            },
+            {
+                "from": "effect",
+                "to": "corner",
+                "allowed": "all"
+            }
+        ]
+    },
+    "specifications": {
+        "user1": [
+            {
+                "id": "spec1",
+                "timestamp": "2024-01-20T10:30:00",
+                "selection": {
+                    "specialPaper": "art-card",
+                    "paper": "350",
+                    "printColor": "double-sided",
+                    "lamination": "matte",
+                    "effect": "foil-stamping",
+                    "corner": "rounded"
+                },
+                "totalPrice": 140,
+                "status": "completed"
+            }
+        ],
+        "guest": [
+            {
+                "id": "spec_6988510970c40",
+                "timestamp": "2026-02-08T09:02:01",
+                "selection": {
+                    "specialPaper": "art-card",
+                    "paper": null,
+                    "printColor": null,
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 50,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988510a4d447",
+                "timestamp": "2026-02-08T09:02:02",
+                "selection": {
+                    "specialPaper": "art-card",
+                    "paper": "350",
+                    "printColor": null,
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 60,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988510be5ab1",
+                "timestamp": "2026-02-08T09:02:03",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": null,
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 50,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988510ccd32d",
+                "timestamp": "2026-02-08T09:02:04",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": null,
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 50,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988510d754bf",
+                "timestamp": "2026-02-08T09:02:05",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": null,
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 50,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988510e3b3a1",
+                "timestamp": "2026-02-08T09:02:06",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": null,
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 50,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988510faf729",
+                "timestamp": "2026-02-08T09:02:07",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": "single-sided",
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 50,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988511123521",
+                "timestamp": "2026-02-08T09:02:09",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": "single-sided",
+                    "lamination": "glossy",
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 70,
+                "status": "pending"
+            },
+            {
+                "id": "spec_69885111f163e",
+                "timestamp": "2026-02-08T09:02:09",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": "single-sided",
+                    "lamination": "glossy",
+                    "effect": "foil-stamping",
+                    "corner": null
+                },
+                "totalPrice": 105,
+                "status": "pending"
+            },
+            {
+                "id": "spec_69885112e5c31",
+                "timestamp": "2026-02-08T09:02:10",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": "single-sided",
+                    "lamination": "glossy",
+                    "effect": "foil-stamping",
+                    "corner": "rounded"
+                },
+                "totalPrice": 110,
+                "status": "pending"
+            },
+            {
+                "id": "spec_69885115019a5",
+                "timestamp": "2026-02-08T09:02:13",
+                "selection": {
+                    "specialPaper": "kraft-paper",
+                    "paper": "350",
+                    "printColor": "single-sided",
+                    "lamination": "glossy",
+                    "effect": "foil-stamping",
+                    "corner": "rounded"
+                },
+                "totalPrice": 110,
+                "status": "pending"
+            },
+            {
+                "id": "spec_698890cedd8ba",
+                "timestamp": "2026-02-08T13:34:06",
+                "selection": {
+                    "specialPaper": "OG Paper",
+                    "paper": "250 GSM",
+                    "lamination": "Matt",
+                    "effect": "Spot UV",
+                    "corner": "Sharp"
+                },
+                "totalPrice": 0,
+                "status": "pending"
+            }
+        ],
+        "admin": [
+            {
+                "id": "spec_69888f8cd3e7e",
+                "timestamp": "2026-02-08T13:28:44",
+                "selection": {
+                    "specialPaper": "art-card",
+                    "paper": "300",
+                    "printColor": "single-sided",
+                    "lamination": "matte",
+                    "effect": "none",
+                    "corner": "rounded"
+                },
+                "totalPrice": 70,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988946ac28ce",
+                "timestamp": "2026-02-08T13:49:30",
+                "selection": {
+                    "specialPaper": "OG Paper",
+                    "paper": "250 GSM",
+                    "lamination": "Matt",
+                    "effect": "Spot UV",
+                    "corner": null
+                },
+                "totalPrice": 140,
+                "status": "pending"
+            },
+            {
+                "id": "spec_698894d6817d2",
+                "timestamp": "2026-02-08T13:51:18",
+                "selection": {
+                    "specialPaper": "Metallic",
+                    "paper": null,
+                    "lamination": null,
+                    "effect": null,
+                    "corner": null
+                },
+                "totalPrice": 100,
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988971d730ed",
+                "timestamp": "2026-02-08T14:01:01",
+                "selection": {
+                    "specialPaper": "OG Paper",
+                    "papers": "250 GSM",
+                    "lamination": "Matt",
+                    "effects": "Spot UV",
+                    "corners": "Sharp"
+                },
+                "totalPrice": 100,
+                "customer": {
+                    "name": "vasanth",
+                    "phone": "508962752",
+                    "email": "baabme.social@gmail.com"
+                },
+                "status": "pending"
+            },
+            {
+                "id": "spec_6988994c7a990",
+                "timestamp": "2026-02-08T14:10:20",
+                "selection": {
+                    "specialPaper": "OG Paper",
+                    "papers": "250 GSM",
+                    "lamination": "Matt",
+                    "effects": "Foiling",
+                    "corners": "Sharp"
+                },
+                "totalPrice": 100,
+                "customer": {
+                    "name": "sdsd",
+                    "phone": "1231231234",
+                    "email": "baabme.social@gmail.com"
+                },
+                "status": "pending"
+            },
+            {
+                "id": "spec_69889969984ff",
+                "timestamp": "2026-02-08T14:10:49",
+                "selection": {
+                    "specialPaper": "OG Paper",
+                    "papers": "300 GSM",
+                    "lamination": "Matt",
+                    "effects": "Foiling",
+                    "corners": "Rounded"
+                },
+                "totalPrice": 100,
+                "customer": {
+                    "name": "111",
+                    "phone": "11111111111",
+                    "email": "baabme.social@gmail.com"
+                },
+                "status": "pending"
+            },
+            {
+                "id": "spec_69889a47c4b3a",
+                "timestamp": "2026-02-08T14:14:31",
+                "selection": {
+                    "specialPaper": "Black Card",
+                    "papers": "250 GSM",
+                    "lamination": "Gloss",
+                    "effects": null,
+                    "corners": "Rounded"
+                },
+                "totalPrice": 55,
+                "customer": {
+                    "name": "1",
+                    "phone": "1111111111",
+                    "email": "social.baabme@gmail.com"
+                },
+                "status": "pending"
+            }
+        ]
+    },
+    "analytics": {
+        "totalUsers": 2,
+        "totalSpecifications": 20,
+        "popularMaterials": {
+            "art-card": 4,
+            "kraft-paper": 9,
+            "300": 1,
+            "single-sided": 1,
+            "matte": 1,
+            "none": 1,
+            "rounded": 1,
+            "OG Paper": 5,
+            "250 GSM": 5,
+            "Matt": 5,
+            "Spot UV": 3,
+            "Sharp": 3,
+            "Metallic": 1,
+            "Foiling": 2,
+            "300 GSM": 1,
+            "Rounded": 2,
+            "Black Card": 1,
+            "Gloss": 1
+        },
+        "popularGSM": {
+            "350": 11
+        },
+        "revenue": 1560
+    },
+    "ui_config": {
+        "config": {
+            "papers": [
+                "250 GSM",
+                "300 GSM",
+                "350 GSM",
+                "400 GSM",
+                "600 GSM",
+                "5000"
+            ],
+            "specialPapers": [
+                "Kraft Paper",
+                "Textured Paper",
+                "PVC Card",
+                "Black Card",
+                "Metallic",
+                "OG Paper",
+                "121112"
+            ],
+            "lamination": [
+                "Matt",
+                "Gloss",
+                "Velvet"
+            ],
+            "effects": [
+                "Spot UV",
+                "Foiling",
+                "Emboss"
+            ],
+            "corners": [
+                "Sharp",
+                "Rounded"
+            ],
+            "6size_5055": [
+                "100x100",
+                "70x100"
+            ]
+        },
+        "prices": {
+            "specialPaper": {
+                "121112": 0,
+                "Metallic": 0,
+                "OG Paper": 0,
+                "Black Card": 10,
+                "letter head": 100,
+                "Kraft Paper": 0,
+                "Textured Paper": 80,
+                "PVC Card": 10,
+                "aa": 100,
+                "as": 100
+            },
+            "paper": {
+                "5000": 200,
+                "600 GSM": 100,
+                "250 GSM": 10,
+                "300 GSM": 12
+            },
+            "lamination": {
+                "Velvet": 100,
+                "Matt": 10,
+                "Gloss": 20
+            },
+            "effect": {
+                "Emboss": 100,
+                "Spot UV": 30,
+                "Foiling": 10
+            },
+            "corner": {
+                "Rounded": 100,
+                "Sharp": 20
+            },
+            "effects": {
+                "Spot UV": 30,
+                "Foiling": 35
+            },
+            "corners": {
+                "Sharp": 2,
+                "Rounded": 5
+            },
+            "papers": {
+                "250 GSM": 20,
+                "300 GSM": 25
+            },
+            "6size_5055": {
+                "100x100": 20,
+                "70x100": 20
+            }
+        },
+        "rootRules": {
+            "121112": {
+                "papers": [
+                    "250 GSM"
+                ]
+            },
+            "Kraft Paper": {
+                "papers": [
+                    "250 GSM",
+                    "300 GSM"
+                ],
+                "lamination": [
+                    "Matt",
+                    "Gloss",
+                    "Velvet"
+                ],
+                "effects": [
+                    "Spot UV"
+                ],
+                "corners": [
+                    "Sharp"
+                ],
+                "6size_5055": []
+            },
+            "Textured Paper": [],
+            "OG Paper": {
+                "papers": [
+                    "300 GSM",
+                    "250 GSM"
+                ],
+                "lamination": [
+                    "Matt",
+                    "Gloss"
+                ],
+                "effects": [
+                    "Spot UV",
+                    "Foiling"
+                ],
+                "corners": [
+                    "Sharp",
+                    "Rounded"
+                ]
+            },
+            "Metallic": {
+                "papers": [
+                    "250 GSM"
+                ],
+                "6size_5055": []
+            },
+            "Black Card": {
+                "papers": [
+                    "300 GSM",
+                    "250 GSM"
+                ],
+                "lamination": [
+                    "Matt",
+                    "Gloss"
+                ],
+                "effects": [
+                    "Spot UV",
+                    "Foiling"
+                ],
+                "corners": [
+                    "Sharp",
+                    "Rounded"
+                ],
+                "6size_5055": [
+                    "100x100"
+                ]
+            },
+            "PVC Card": {
+                "papers": [
+                    "250 GSM",
+                    "350 GSM",
+                    "600 GSM"
+                ],
+                "6size_5055": []
+            }
+        },
+        "steps": [
+            {
+                "id": "papers",
+                "label": "2. GSM \/ Paper"
+            },
+            {
+                "id": "lamination",
+                "label": "3. Lamination"
+            },
+            {
+                "id": "effects",
+                "label": "4. Effects"
+            },
+            {
+                "id": "corners",
+                "label": "5. Corners"
+            },
+            {
+                "id": "6size_5055",
+                "label": "6. Size"
+            }
+        ],
+        "activeTab": "papers",
+        "selectedRoot": "PVC Card",
+        "selectedRoots": [
+            "121112",
+            "PVC Card",
+            "Black Card",
+            "OG Paper",
+            "Metallic",
+            "Kraft Paper"
+        ],
+        "adminAvailability": [],
+        "rootAvailability": [],
+        "productDefinitions": [
+            {
+                "id": "card",
+                "label": "Business Card",
+                "w": 85.6,
+                "h": 53.98,
+                "icon": "💳",
+                "desc": "Standard 85x54mm cards."
+            },
+            {
+                "id": "letterhead",
+                "label": "Letterhead",
+                "w": 210,
+                "h": 297,
+                "icon": "📄",
+                "desc": "A4 Professional Letterheads."
+            }
+        ],
+        "rootLabel": "Material Foundation"
+    }
+}

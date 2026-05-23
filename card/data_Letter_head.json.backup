@@ -1,0 +1,89 @@
+{
+    "users": {
+        "admin": {
+            "id": "admin",
+            "password": "admin123",
+            "role": "admin",
+            "profile": {
+                "name": "Administrator",
+                "email": "admin@cardbuilder.com",
+                "created": "2024-01-01",
+                "lastLogin": "2026-02-08 15:18:06"
+            }
+        },
+        "user1": {
+            "id": "user1",
+            "password": "pass123",
+            "role": "user",
+            "profile": {
+                "name": "John Doe",
+                "email": "john@example.com",
+                "created": "2024-01-15",
+                "lastLogin": null
+            }
+        },
+        "vasanth": {
+            "id": "vasanth",
+            "password": "Kani@8110u",
+            "role": "user",
+            "security_question": "pet",
+            "security_answer": "arjun",
+            "profile": {
+                "name": "Vasanth kumar",
+                "email": "baab@gmail.com",
+                "created": "2026-02-08 14:43:52",
+                "lastLogin": "2026-02-08 15:17:53"
+            }
+        }
+    },
+    "materials": [],
+    "specifications": [],
+    "analytics": [],
+    "compatibility": [],
+    "ui_config": {
+        "config": {
+            "specialPapers": [
+                "Kraft Paper",
+                "Textured Paper",
+                "PVC Card"
+            ],
+            "papers": [
+                "300 GSM",
+                "400 GSM"
+            ],
+            "lamination": [
+                "Matt",
+                "Gloss"
+            ],
+            "effects": [
+                "None",
+                "Spot UV"
+            ],
+            "corners": [
+                "Sharp"
+            ]
+        },
+        "prices": [],
+        "rootRules": [],
+        "steps": [
+            {
+                "id": "papers",
+                "label": "2. GSM \/ Paper"
+            },
+            {
+                "id": "lamination",
+                "label": "3. Lamination"
+            },
+            {
+                "id": "effects",
+                "label": "4. Effects"
+            },
+            {
+                "id": "corners",
+                "label": "5. Corners"
+            }
+        ],
+        "activeTab": null,
+        "selectedRoot": null
+    }
+}

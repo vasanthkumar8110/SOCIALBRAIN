@@ -1,0 +1,3124 @@
+{
+    "posts": [
+        {
+            "id": "post_666e2385e7c9bfbad6ec",
+            "status": "draft",
+            "created_at": "2026-01-15T12:17:04+00:00",
+            "updated_at": "2026-01-16T18:19:06+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "10-01-2026",
+            "platform": "facebook",
+            "post_type": "status_update",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": "profile",
+            "caption": "qqq",
+            "media_url": "uploads\/research\/res_1768509738_6969512a2ae36.jpg",
+            "type": "image",
+            "platform_id": "facebook",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-18T03:18:19-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_7e105b79dc260fe03ff0",
+            "status": "ongoing",
+            "created_at": "2026-01-15T20:19:29+00:00",
+            "updated_at": "2026-01-16T18:18:36+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "04-01-2026",
+            "platform": "instagram",
+            "post_type": "feed_post",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "111",
+            "media_url": "uploads\/research\/res_1768509480_696950284a314.png",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "late_reason": "wew",
+            "deleted_at": "2026-01-19T12:56:21-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_cfcc6d558851352bc0b7",
+            "status": "draft",
+            "created_at": "2026-01-15T20:19:56+00:00",
+            "updated_at": "2026-01-16T08:22:42+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "11-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-19T12:56:35-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_14241af1090ed50d925c",
+            "status": "approved",
+            "created_at": "2026-01-15T20:19:57+00:00",
+            "updated_at": "2026-01-16T18:20:54+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "05-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "retyu",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "late_reason": null,
+            "deleted_at": "2026-01-19T12:56:25-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_57df4f37dfa93105165f",
+            "status": "ongoing",
+            "created_at": "2026-01-15T20:19:57+00:00",
+            "updated_at": "2026-01-19T12:56:13-05:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "08-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "oiuyt",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "late_reason": null,
+            "deleted_at": "2026-01-19T12:56:23-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_7b7ad955985fbddb2924",
+            "status": "posted",
+            "created_at": "2026-01-15T20:19:58+00:00",
+            "updated_at": "2026-01-16T08:22:42+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "09-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "late_reason": "wew",
+            "deleted_at": "2026-01-19T12:56:37-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_7a5f9b3c76c85481e2cd",
+            "status": "draft",
+            "created_at": "2026-01-15T20:19:58+00:00",
+            "updated_at": "2026-01-16T08:22:42+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "09-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-19T12:56:26-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_5129c42cf349c79a494b",
+            "status": "draft",
+            "created_at": "2026-01-15T20:19:58+00:00",
+            "updated_at": "2026-01-16T08:22:42+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "16-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-19T12:56:28-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_105b900e1980db584134",
+            "status": "lost",
+            "created_at": "2026-01-15T20:19:58+00:00",
+            "updated_at": "2026-01-16T18:18:19+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "07-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "late_reason": null,
+            "deleted_at": "2026-01-18T03:18:14-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_957e86c273cd8e4ade7e",
+            "status": "draft",
+            "created_at": "2026-01-15T20:19:59+00:00",
+            "updated_at": "2026-01-16T08:22:42+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "15-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-19T12:56:32-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_805580f93e676d9249dc",
+            "status": "draft",
+            "created_at": "2026-01-15T20:19:59+00:00",
+            "updated_at": "2026-01-19T12:55:48-05:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "13-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-19T12:56:27-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_9b32e39bba2da6facf07",
+            "status": "draft",
+            "created_at": "2026-01-15T20:19:59+00:00",
+            "updated_at": "2026-01-18T03:17:54-05:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "14-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-18T03:18:01-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_89266e1bcd6629cdae7c",
+            "status": "draft",
+            "created_at": "2026-01-15T20:40:21+00:00",
+            "updated_at": "2026-01-16T08:22:42+00:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "13-01-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "media_url": "",
+            "type": "image",
+            "platform_id": "instagram",
+            "post_time": "12:00",
+            "deleted_at": "2026-01-18T03:18:06-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_c1457e490caf8044bee9",
+            "status": "draft",
+            "created_at": "2026-01-17T16:29:55-05:00",
+            "updated_at": "2026-01-17T16:29:55-05:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "18-01-2026",
+            "platform": "instagram",
+            "post_type": "feed_post",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": null,
+            "caption": "",
+            "deleted_at": "2026-01-19T12:56:30-05:00",
+            "deleted_by": "user_e78c330e88a6c30b2fa3"
+        },
+        {
+            "id": "post_f00ba6b164ab35387871",
+            "status": "posted",
+            "created_at": "2026-01-22T04:05:16-05:00",
+            "updated_at": "2026-01-22T04:05:36-05:00",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "date": "15-01-2026",
+            "platform": "facebook",
+            "post_type": "status_update",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "fb_context": "profile",
+            "caption": "",
+            "post_time": "10:00 AM",
+            "late_reason": "qswderty"
+        }
+    ],
+    "products": [
+        {
+            "id": "prod_3b3bc2ee5c7b4e292e28",
+            "name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "category_id": "cat_6968da72c7ac2",
+            "sub_category_id": "subcat_6968da776ea07",
+            "print_shop": "1",
+            "product_size": "",
+            "code": "1",
+            "price": 11,
+            "cost": 1,
+            "active": true,
+            "updated_at": "2026-01-15T12:16:15+00:00",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "created_by": "user_e78c330e88a6c30b2fa3"
+        }
+    ],
+    "sectors": [
+        {
+            "id": "sec_f75dd230ea99d514889f",
+            "name": "1",
+            "description": "",
+            "active": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        }
+    ],
+    "categories": [
+        {
+            "id": "cat_6968da72c7ac2",
+            "name": "1",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "active": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "id": "cat_696a8ec09754f",
+            "name": "11111111111111",
+            "sector_id": "sec_f75dd230ea99d514889f",
+            "active": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        }
+    ],
+    "sub_categories": [
+        {
+            "id": "subcat_6968da776ea07",
+            "name": "1",
+            "category_id": "cat_6968da72c7ac2",
+            "active": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        }
+    ],
+    "platforms": [
+        {
+            "id": "instagram",
+            "name": "Instagram",
+            "icon": "fab fa-instagram",
+            "enabled": true,
+            "post_types": [
+                "feed_post",
+                "story",
+                "reel"
+            ]
+        },
+        {
+            "id": "facebook",
+            "name": "Facebook",
+            "icon": "fab fa-facebook",
+            "enabled": true,
+            "post_types": {
+                "profile": [
+                    "status_update",
+                    "photo",
+                    "video"
+                ],
+                "pages": [
+                    "page_post",
+                    "page_event",
+                    "page_offer"
+                ]
+            }
+        },
+        {
+            "id": "tiktok",
+            "name": "TikTok",
+            "icon": "fab fa-tiktok",
+            "enabled": true,
+            "post_types": [
+                "video",
+                "live"
+            ]
+        },
+        {
+            "id": "youtube",
+            "name": "YouTube",
+            "icon": "fab fa-youtube",
+            "enabled": true,
+            "post_types": [
+                "short",
+                "video"
+            ]
+        },
+        {
+            "id": "linkedin",
+            "name": "LinkedIn",
+            "icon": "fab fa-linkedin",
+            "enabled": true,
+            "post_types": [
+                "post",
+                "article"
+            ]
+        },
+        {
+            "id": "twitter",
+            "name": "Twitter",
+            "icon": "fab fa-twitter",
+            "enabled": true,
+            "post_types": [
+                "tweet",
+                "thread"
+            ]
+        }
+    ],
+    "holidays": [
+        {
+            "date": "01-01-2026",
+            "day": "Thursday",
+            "what_day": "New Year",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "14-01-2026",
+            "day": "Wednesday",
+            "what_day": "Makar Sankranti \/ Pongal",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "20-01-2026",
+            "day": "Tuesday",
+            "what_day": "UAE Allowance Payout",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "26-01-2026",
+            "day": "Monday",
+            "what_day": "Republic Day",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "15-02-2026",
+            "day": "Sunday",
+            "what_day": "Vasant Panchami",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "27-02-2026",
+            "day": "Friday",
+            "what_day": "Maha Shivaratri",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "03-03-2026",
+            "day": "Tuesday",
+            "what_day": "Holi",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "04-03-2026",
+            "day": "Wednesday",
+            "what_day": "Holi",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "16-03-2026",
+            "day": "Monday",
+            "what_day": "Ramadan",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "17-03-2026",
+            "day": "Tuesday",
+            "what_day": "Ramadan",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "18-03-2026",
+            "day": "Wednesday",
+            "what_day": "Ramadan",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "19-03-2026",
+            "day": "Thursday",
+            "what_day": "Ramadan",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "20-03-2026",
+            "day": "Friday",
+            "what_day": "Ramadan",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "21-03-2026",
+            "day": "Saturday",
+            "what_day": "Ramadan Begins",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "22-03-2026",
+            "day": "Sunday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "23-03-2026",
+            "day": "Monday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "24-03-2026",
+            "day": "Tuesday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "25-03-2026",
+            "day": "Wednesday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "26-03-2026",
+            "day": "Thursday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "27-03-2026",
+            "day": "Friday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "28-03-2026",
+            "day": "Saturday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "29-03-2026",
+            "day": "Sunday",
+            "what_day": "Ramadan",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "30-03-2026",
+            "day": "Monday",
+            "what_day": "Eid al-Fitr",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "10-04-2026",
+            "day": "Friday",
+            "what_day": "Eid al-Fitr",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "11-04-2026",
+            "day": "Saturday",
+            "what_day": "Eid al-Fitr",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "12-04-2026",
+            "day": "Sunday",
+            "what_day": "Eid al-Fitr",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "14-04-2026",
+            "day": "Tuesday",
+            "what_day": "Ambedkar Jayanti",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "01-05-2026",
+            "day": "Friday",
+            "what_day": "Labour Day",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "26-05-2026",
+            "day": "Tuesday",
+            "what_day": "Arafat Day",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "27-05-2026",
+            "day": "Wednesday",
+            "what_day": "Eid al-Adha",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "28-05-2026",
+            "day": "Thursday",
+            "what_day": "Eid al-Adha",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "29-05-2026",
+            "day": "Friday",
+            "what_day": "Eid al-Adha",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "17-06-2026",
+            "day": "Wednesday",
+            "what_day": "Islamic New Year",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "15-08-2026",
+            "day": "Saturday",
+            "what_day": "Independence Day",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "16-08-2026",
+            "day": "Sunday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "17-08-2026",
+            "day": "Monday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "18-08-2026",
+            "day": "Tuesday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "19-08-2026",
+            "day": "Wednesday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "20-08-2026",
+            "day": "Thursday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "21-08-2026",
+            "day": "Friday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "22-08-2026",
+            "day": "Saturday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "23-08-2026",
+            "day": "Sunday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "24-08-2026",
+            "day": "Monday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "25-08-2026",
+            "day": "Tuesday",
+            "what_day": "Onam",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "28-08-2026",
+            "day": "Friday",
+            "what_day": "Raksha Bandhan",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "02-10-2026",
+            "day": "Friday",
+            "what_day": "Gandhi Jayanti",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "20-10-2026",
+            "day": "Tuesday",
+            "what_day": "Diwali",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "21-10-2026",
+            "day": "Wednesday",
+            "what_day": "Diwali",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "22-10-2026",
+            "day": "Thursday",
+            "what_day": "Diwali",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "23-10-2026",
+            "day": "Friday",
+            "what_day": "Diwali",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "24-10-2026",
+            "day": "Saturday",
+            "what_day": "Diwali",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "25-10-2026",
+            "day": "Sunday",
+            "what_day": "Diwali",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "08-11-2026",
+            "day": "Sunday",
+            "what_day": "Guru Nanak Jayanti",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "01-12-2026",
+            "day": "Tuesday",
+            "what_day": "Commemoration Day",
+            "priority": false,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "02-12-2026",
+            "day": "Wednesday",
+            "what_day": "UAE National Day",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "03-12-2026",
+            "day": "Thursday",
+            "what_day": "UAE National Day",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "25-12-2026",
+            "day": "Friday",
+            "what_day": "Christmas",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "date": "17-01-2026",
+            "day": "Saturday",
+            "what_day": "sd",
+            "priority": true,
+            "team_id": "team_69a08a959fb716cd9c43"
+        }
+    ],
+    "tasks": [
+        {
+            "id": "task_d400a6dcb35fae258867",
+            "title": "Feb 14 champ",
+            "status": "draft",
+            "date": "19-01-2026",
+            "start_date": "19-01-2026",
+            "end_date": "14-02-2026",
+            "description": "a",
+            "priority": "P3",
+            "dueDate": "2026-02-13",
+            "dueTime": "23:38",
+            "listId": "work",
+            "tags": [
+                "#urgent"
+            ],
+            "subtasks": [
+                {
+                    "id": "subtask_1768847965762_0",
+                    "title": "!@112",
+                    "completed": false
+                }
+            ],
+            "created_at": "2026-01-19T13:39:12-05:00",
+            "assigned_to": "user_e78c330e88a6c30b2fa3",
+            "recurring": {
+                "type": "daily",
+                "interval": null
+            },
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "updated_at": "2026-01-22T04:07:28-05:00"
+        }
+    ],
+    "healthcheck": "ok",
+    "users": [
+        {
+            "id": "user_e78c330e88a6c30b2fa3",
+            "username": "V8110",
+            "role": "admin",
+            "team_id": "team_69a08a959fb716cd9c43"
+        }
+    ],
+    "logs": [
+        {
+            "id": "log_8e7efb917a4640945319",
+            "timestamp": "2026-01-25T01:56:20-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.214.93",
+            "user_agent": "Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Mobile Safari\/537.36"
+        },
+        {
+            "id": "log_36bf5bbbfa02ff76988c",
+            "timestamp": "2026-01-22T08:05:03-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_361a6d4aa94f48b152dc",
+            "timestamp": "2026-01-22T04:07:28-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "draft"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_f93948b6e22a5c3ceff9",
+            "timestamp": "2026-01-22T04:06:46-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_6baf6c097d9451ae4f28",
+            "timestamp": "2026-01-22T04:06:05-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_user",
+            "details": {
+                "username": "V8110",
+                "role": "admin"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_84e5bd21e84ca3c1491e",
+            "timestamp": "2026-01-22T04:04:35-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "ongoing"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_9de33556ddbf9f7044e0",
+            "timestamp": "2026-01-22T04:04:35-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "lost"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ad58b6dcead8d71835c4",
+            "timestamp": "2026-01-22T04:04:33-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "posted"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_44798aff7ba8160a405b",
+            "timestamp": "2026-01-22T04:04:32-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "approved"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_09672c85cfa6efe5d445",
+            "timestamp": "2026-01-22T04:04:31-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "ongoing"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_9b18674582ee6bc28428",
+            "timestamp": "2026-01-22T04:02:28-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "draft"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_e2e4efac0c31e73a7f61",
+            "timestamp": "2026-01-22T04:02:27-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "ongoing"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_0c87e138f2ce5f5f51c3",
+            "timestamp": "2026-01-22T04:02:25-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "approved"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_53d52be1a4bf92626e03",
+            "timestamp": "2026-01-22T04:02:22-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "posted"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_02e4f06f9b46c67ce7f0",
+            "timestamp": "2026-01-22T02:51:22-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_b5cd3cf721c6e962f7cf",
+            "timestamp": "2026-01-22T01:02:00-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "status": "approved"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_272519f3a8675d2fbe05",
+            "timestamp": "2026-01-22T01:01:42-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.214.38",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_316a5a050269a2815921",
+            "timestamp": "2026-01-19T13:39:12-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "create_task",
+            "details": {
+                "task_id": "task_d400a6dcb35fae258867",
+                "date": "19-01-2026",
+                "status": "ongoing"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_711c914f1da10756a51f",
+            "timestamp": "2026-01-19T12:56:45-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "delete_task",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_5ad6a53d36fbce0caa05",
+            "timestamp": "2026-01-19T12:56:37-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_7b7ad955985fbddb2924",
+                "product": "Planner Post"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_29b9022fc753eef2699e",
+            "timestamp": "2026-01-19T12:56:35-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_cfcc6d558851352bc0b7",
+                "product": "Planner Post"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_3f2b4890de3f50064276",
+            "timestamp": "2026-01-19T12:56:32-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_957e86c273cd8e4ade7e",
+                "product": "Planner Post"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_b41a7503e12e09d915a5",
+            "timestamp": "2026-01-19T12:56:30-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_c1457e490caf8044bee9",
+                "product": "1"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c8199a02033fcb2ada3e",
+            "timestamp": "2026-01-19T12:56:28-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_5129c42cf349c79a494b",
+                "product": "1"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_22f03f8c21d997ed3b14",
+            "timestamp": "2026-01-19T12:56:27-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_805580f93e676d9249dc",
+                "product": "Planner Post"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_bcfe23bb1737da37375b",
+            "timestamp": "2026-01-19T12:56:26-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_7a5f9b3c76c85481e2cd",
+                "product": "Planner Post"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_0fd294dcbbb7d89af605",
+            "timestamp": "2026-01-19T12:56:25-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_14241af1090ed50d925c",
+                "product": "1"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_87a630268afae75f7c58",
+            "timestamp": "2026-01-19T12:56:23-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_57df4f37dfa93105165f",
+                "product": "1"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_8f4c63828f5c97760c0d",
+            "timestamp": "2026-01-19T12:56:21-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_7e105b79dc260fe03ff0",
+                "product": "1"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_3f694f544b4f8c977d11",
+            "timestamp": "2026-01-19T12:55:48-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_805580f93e676d9249dc",
+                "old_date": "12-01-2026",
+                "new_date": "13-01-2026"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_f9d42cdcd5ff0354a365",
+            "timestamp": "2026-01-19T12:55:34-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.212.226",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_e1b0db551674296c72c9",
+            "timestamp": "2026-01-18T10:55:34-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_b7c5fd0ed9587b86eca5",
+            "timestamp": "2026-01-18T08:37:43-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_f2c8181022119db2efdc",
+            "timestamp": "2026-01-18T03:18:19-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_666e2385e7c9bfbad6ec",
+                "product": "1"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c2474b11f064460e2595",
+            "timestamp": "2026-01-18T03:18:14-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_105b900e1980db584134",
+                "product": "Planner Post"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_f90ea48142780ac54466",
+            "timestamp": "2026-01-18T03:18:06-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_89266e1bcd6629cdae7c",
+                "product": "1"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_fcea6961980e4c3172da",
+            "timestamp": "2026-01-18T03:18:01-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_soft_deleted",
+            "details": {
+                "post_id": "post_9b32e39bba2da6facf07",
+                "product": "Planner Post"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_cda9d2bf07e8de2945fd",
+            "timestamp": "2026-01-18T03:17:54-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_9b32e39bba2da6facf07",
+                "old_date": "22-01-2026",
+                "new_date": "14-01-2026"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_2857737c4fd32b3c20d0",
+            "timestamp": "2026-01-18T03:17:19-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "83.110.215.73",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_0288581768b60b5c3087",
+            "timestamp": "2026-01-17T16:29:06-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "109.177.154.8",
+            "user_agent": "Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Mobile Safari\/537.36"
+        },
+        {
+            "id": "log_1401226d9079c85d3e8d",
+            "timestamp": "2026-01-17T16:25:40-05:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "109.177.154.8",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_7332112ed3b27121c0eb",
+            "timestamp": "2026-01-16T19:17:20+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "category_saved",
+            "details": {
+                "name": "11111111111111",
+                "sector_id": "sec_f75dd230ea99d514889f"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ca6f6acd34d5a5bd817e",
+            "timestamp": "2026-01-16T19:16:48+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "api_key_created",
+            "details": {
+                "label": "ghjk",
+                "plan": "b2b",
+                "role": "user"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_8b093f11cfe9af975c3e",
+            "timestamp": "2026-01-16T19:13:36+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "holiday_saved",
+            "details": {
+                "day": "sd",
+                "date": "17-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_b0a31c9974eab86b2bee",
+            "timestamp": "2026-01-16T18:20:54+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_14241af1090ed50d925c",
+                "old_date": "06-01-2026",
+                "new_date": "05-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_27ca4b6f63653c3a4935",
+            "timestamp": "2026-01-16T18:20:47+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_6ea8cdc57790fe7f9695",
+            "timestamp": "2026-01-16T18:19:06+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_666e2385e7c9bfbad6ec",
+                "old_date": "05-01-2026",
+                "new_date": "10-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_13cb4d1eb164c631f7c0",
+            "timestamp": "2026-01-16T18:19:03+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_666e2385e7c9bfbad6ec",
+                "old_date": "03-01-2026",
+                "new_date": "05-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_bd65d843c3bc3ed99d0f",
+            "timestamp": "2026-01-16T18:18:36+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_7e105b79dc260fe03ff0",
+                "old_date": "02-01-2026",
+                "new_date": "04-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_9950d98fabdf276ff48d",
+            "timestamp": "2026-01-16T18:18:21+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_57df4f37dfa93105165f",
+                "old_date": "07-01-2026",
+                "new_date": "08-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c549852cf61df7d90453",
+            "timestamp": "2026-01-16T18:18:19+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_105b900e1980db584134",
+                "old_date": "08-01-2026",
+                "new_date": "07-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_bd0eaa4783c120ef7693",
+            "timestamp": "2026-01-16T18:18:12+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "approved"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_8117bc87dc30a4b3b579",
+            "timestamp": "2026-01-16T18:17:59+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_0e6e9a328b6d34eaf41c",
+            "timestamp": "2026-01-16T07:59:05+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_395e90de4b967adcf549",
+            "timestamp": "2026-01-15T21:33:17+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "holidays_seeded",
+            "details": {
+                "count": 57
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_455f35e13fab7adc988c",
+            "timestamp": "2026-01-15T21:23:55+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "holidays_seeded",
+            "details": {
+                "count": 57
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_734b5c19a5d925383ac8",
+            "timestamp": "2026-01-15T21:23:51+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "holidays_seeded",
+            "details": {
+                "count": 57
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ccf1bbae45de5380176f",
+            "timestamp": "2026-01-15T21:23:47+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "holidays_seeded",
+            "details": {
+                "count": 57
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_81d9bb4411f502de311b",
+            "timestamp": "2026-01-15T21:03:37+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "holidays_seeded",
+            "details": {
+                "count": 56
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_7710476fe0687755ce79",
+            "timestamp": "2026-01-15T21:02:24+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "posted"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_6318f6a1ae513246fea1",
+            "timestamp": "2026-01-15T21:02:15+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "draft"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_1603a1800b2626577848",
+            "timestamp": "2026-01-15T21:01:52+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_e561e5f69f532e7a90c5",
+            "timestamp": "2026-01-15T21:00:32+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_9a5f2064a4fda07c11b9",
+            "timestamp": "2026-01-15T20:58:13+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ca9e3c38fee92c4025c9",
+            "timestamp": "2026-01-15T20:40:10+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_5129c42cf349c79a494b",
+                "old_date": "16-01-2026",
+                "new_date": "16-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_49028d7aa10ad090e48a",
+            "timestamp": "2026-01-15T20:37:30+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "posted"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_a00440630f4fc56e5718",
+            "timestamp": "2026-01-15T20:37:29+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "lost"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_11f0fa850452d045d1fd",
+            "timestamp": "2026-01-15T20:37:27+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "posted"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_747b97dd7095ce3638ee",
+            "timestamp": "2026-01-15T20:37:25+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "approved"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ef10fdf8012d987edbe1",
+            "timestamp": "2026-01-15T20:37:18+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "ongoing"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_899e93eca62061e33424",
+            "timestamp": "2026-01-15T20:34:55+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "approved"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c991c1db17d618163b0e",
+            "timestamp": "2026-01-15T20:34:51+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "posted"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ced15dee60f6862fea52",
+            "timestamp": "2026-01-15T20:34:49+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "update_task_status",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "status": "approved"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_0541fdad188ccfe0b0ad",
+            "timestamp": "2026-01-15T20:34:32+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "create_task",
+            "details": {
+                "task_id": "task_64854a62b3b46287bce2",
+                "date": "16-01-2026",
+                "status": "draft"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_74423d5bd89fc27351e0",
+            "timestamp": "2026-01-15T20:32:23+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_57df4f37dfa93105165f",
+                "old_date": "06-01-2026",
+                "new_date": "07-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_dbfd26036f9907d8bb1d",
+            "timestamp": "2026-01-15T20:20:21+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_9b32e39bba2da6facf07",
+                "old_date": "08-01-2026",
+                "new_date": "22-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_efac70ae281e3d417a9b",
+            "timestamp": "2026-01-15T20:20:18+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_cfcc6d558851352bc0b7",
+                "old_date": "08-01-2026",
+                "new_date": "11-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_73f794a29e6e84a9e97f",
+            "timestamp": "2026-01-15T20:20:16+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_805580f93e676d9249dc",
+                "old_date": "08-01-2026",
+                "new_date": "12-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c0933e61db1ad44247f0",
+            "timestamp": "2026-01-15T20:20:15+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_957e86c273cd8e4ade7e",
+                "old_date": "08-01-2026",
+                "new_date": "15-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ce2ac2dc5340d17d752f",
+            "timestamp": "2026-01-15T20:20:13+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_5129c42cf349c79a494b",
+                "old_date": "08-01-2026",
+                "new_date": "16-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c331af0d4e1860153240",
+            "timestamp": "2026-01-15T20:20:10+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_7a5f9b3c76c85481e2cd",
+                "old_date": "08-01-2026",
+                "new_date": "09-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_f686a2710aae03231009",
+            "timestamp": "2026-01-15T20:20:09+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_7b7ad955985fbddb2924",
+                "old_date": "08-01-2026",
+                "new_date": "09-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_443505eb2d3d77645c88",
+            "timestamp": "2026-01-15T20:20:07+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_57df4f37dfa93105165f",
+                "old_date": "08-01-2026",
+                "new_date": "06-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_3a83bab0bc1d5c3cb82f",
+            "timestamp": "2026-01-15T20:20:06+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_14241af1090ed50d925c",
+                "old_date": "08-01-2026",
+                "new_date": "06-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_fb0d47e69cbebfdf7f0b",
+            "timestamp": "2026-01-15T20:18:57+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_e9c9b6ac625966480894",
+            "timestamp": "2026-01-15T12:17:08+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_666e2385e7c9bfbad6ec",
+                "old_date": "02-01-2026",
+                "new_date": "03-01-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_3efa7e55063be12b25af",
+            "timestamp": "2026-01-15T12:16:36+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "holidays_seeded",
+            "details": {
+                "count": 56
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_d2665acab500efc0a1bf",
+            "timestamp": "2026-01-15T12:16:15+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "product_added",
+            "details": {
+                "name": "1"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c5a956a4339db0082420",
+            "timestamp": "2026-01-15T12:16:04+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "sub_category_deleted",
+            "details": {
+                "id": "subcat_6968da7c52bd1"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_01eaf14c09a6e778972a",
+            "timestamp": "2026-01-15T12:15:56+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "sub_category_saved",
+            "details": {
+                "name": "1",
+                "category_id": "cat_6968da72c7ac2"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_5beafa41e9f0ae458946",
+            "timestamp": "2026-01-15T12:15:51+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "sub_category_saved",
+            "details": {
+                "name": "1",
+                "category_id": "cat_6968da72c7ac2"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_c95644c00c639f715b30",
+            "timestamp": "2026-01-15T12:15:46+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "category_saved",
+            "details": {
+                "name": "1",
+                "sector_id": "sec_f75dd230ea99d514889f"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_f85b508c49da44a223cc",
+            "timestamp": "2026-01-15T12:15:41+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "sector_saved",
+            "details": {
+                "name": "1"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_ade83b63990413c4fc01",
+            "timestamp": "2026-01-15T12:15:04+00:00",
+            "user_id": "user_e78c330e88a6c30b2fa3",
+            "action": "admin_registered",
+            "details": {
+                "payment": "trial"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        }
+    ],
+    "holiday_refresh_meta": {
+        "team_69a08a959fb716cd9c43": {
+            "date": "2026-01-22",
+            "count": 5,
+            "last_search_at": "2026-01-22T03:01:38-05:00"
+        },
+        "team_c7f2962f66b1002de92a": {
+            "date": "2026-01-17",
+            "count": 1,
+            "last_search_at": "2026-01-17T11:10:07+00:00"
+        },
+        "team_d2b725c22f4de59f1af0": {
+            "date": "2026-01-17",
+            "count": 1,
+            "last_search_at": "2026-01-17T16:54:55-05:00"
+        },
+        "team_ad0b613568b3da8b5fc3": {
+            "date": "2026-01-25",
+            "count": 5,
+            "last_search_at": "2026-01-25T01:41:31-05:00"
+        }
+    },
+    "api_keys": [
+        {
+            "id": "key_8275301d105e5b452aed",
+            "label": "12112",
+            "plan": "b2b",
+            "role": "user",
+            "key": "sb_42bf7b0e1307b1cfad20b6d23915dc66",
+            "status": "active",
+            "created_at": "2026-01-16T19:10:10+00:00",
+            "last_used": null,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "id": "key_f526cba2c837bf6ff3a1",
+            "label": "ghjk",
+            "plan": "b2b",
+            "role": "user",
+            "key": "sb_dcf7b903d76fb10a0c7f8df65dba7671",
+            "status": "active",
+            "created_at": "2026-01-16T19:16:48+00:00",
+            "last_used": null,
+            "team_id": "team_69a08a959fb716cd9c43"
+        }
+    ],
+    "rd_snapshots": [
+        {
+            "team_id": "team_c7f2962f66b1002de92a",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 2,
+                    "requests_per_minute": 0.0200000000000000004163336342344337026588618755340576171875,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Sun",
+                            "Mon",
+                            "Tue",
+                            "Wed",
+                            "Thu",
+                            "Fri",
+                            "Sat"
+                        ],
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            79,
+                            33,
+                            1
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            9,
+                            12,
+                            8,
+                            3,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 7,
+                    "total_posts": 24,
+                    "total_products": 5,
+                    "total_sectors": 4,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_9d25b0783086d04c8bed",
+                        "timestamp": "2026-01-17T11:09:58+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_a55e8b6c2fab790307b5",
+                        "timestamp": "2026-01-16T21:05:04+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_4d298a1b16492eca6a47",
+                            "old_date": "08-01-2026",
+                            "new_date": "02-01-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_03dcdf9befbe51a6c2d4",
+                        "timestamp": "2026-01-16T21:05:03+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_4d298a1b16492eca6a47",
+                            "old_date": "21-01-2026",
+                            "new_date": "08-01-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_efba93cb2e7f132b27d6",
+                        "timestamp": "2026-01-16T21:05:00+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_4d298a1b16492eca6a47",
+                            "old_date": "02-01-2026",
+                            "new_date": "21-01-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_546419056cbf6ef27d57",
+                        "timestamp": "2026-01-16T20:55:23+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "posted"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_2ccdba1c7e083fca6f97",
+                        "timestamp": "2026-01-16T20:49:43+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "approved"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_4927289e733a55519a14",
+                        "timestamp": "2026-01-16T20:49:37+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "posted"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_ea5eed4c98c97f944491",
+                        "timestamp": "2026-01-16T20:49:36+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "approved"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_7310ab6ccff63cd87ecc",
+                        "timestamp": "2026-01-16T20:49:34+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_6d174562775af47e3227",
+                        "timestamp": "2026-01-16T20:45:46+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Linux; Android 6.0; Nexus 5 Build\/MRA58N) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Mobile Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "v1"
+                }
+            },
+            "updated_at": "2026-01-17T11:10:02+00:00"
+        },
+        {
+            "team_id": "team_c7f2962f66b1002de92a",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 1,
+                "success_rate": 99.2000000000000028421709430404007434844970703125,
+                "avg_response_time": 145,
+                "peak_hour": 20,
+                "hourly_stats": {
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 1,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0,
+                    "09": 0,
+                    "10": 0,
+                    "11": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-17T11:10:02+00:00"
+        },
+        {
+            "team_id": "team_d2b725c22f4de59f1af0",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 1,
+                "success_rate": 99.2000000000000028421709430404007434844970703125,
+                "avg_response_time": 145,
+                "peak_hour": "09",
+                "hourly_stats": {
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-20T08:17:56-05:00"
+        },
+        {
+            "team_id": "team_d2b725c22f4de59f1af0",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 2,
+                    "requests_per_minute": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Wed",
+                            "Thu",
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue"
+                        ],
+                        "data": [
+                            0,
+                            79,
+                            33,
+                            4,
+                            8,
+                            14,
+                            1
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            13,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 8,
+                    "total_posts": 11,
+                    "total_products": 5,
+                    "total_sectors": 4,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_716907c9cae3893071e4",
+                        "timestamp": "2026-01-20T08:17:49-05:00",
+                        "user_id": "user_6d86bbb36542fe385565",
+                        "team_id": "team_d2b725c22f4de59f1af0",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Mobile Safari\/537.36"
+                    },
+                    {
+                        "id": "log_316a5a050269a2815921",
+                        "timestamp": "2026-01-19T13:39:12-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "create_task",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "date": "19-01-2026",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_711c914f1da10756a51f",
+                        "timestamp": "2026-01-19T12:56:45-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "delete_task",
+                        "details": {
+                            "task_id": "task_64854a62b3b46287bce2"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_5ad6a53d36fbce0caa05",
+                        "timestamp": "2026-01-19T12:56:37-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_7b7ad955985fbddb2924",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_29b9022fc753eef2699e",
+                        "timestamp": "2026-01-19T12:56:35-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_cfcc6d558851352bc0b7",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_3f2b4890de3f50064276",
+                        "timestamp": "2026-01-19T12:56:32-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_957e86c273cd8e4ade7e",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_b41a7503e12e09d915a5",
+                        "timestamp": "2026-01-19T12:56:30-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_c1457e490caf8044bee9",
+                            "product": "1"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_c8199a02033fcb2ada3e",
+                        "timestamp": "2026-01-19T12:56:28-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_5129c42cf349c79a494b",
+                            "product": "1"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_22f03f8c21d997ed3b14",
+                        "timestamp": "2026-01-19T12:56:27-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_805580f93e676d9249dc",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_bcfe23bb1737da37375b",
+                        "timestamp": "2026-01-19T12:56:26-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_7a5f9b3c76c85481e2cd",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "8110"
+                }
+            },
+            "updated_at": "2026-01-20T08:17:56-05:00"
+        },
+        {
+            "team_id": "team_69a08a959fb716cd9c43",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 1,
+                "success_rate": 99.2000000000000028421709430404007434844970703125,
+                "avg_response_time": 145,
+                "peak_hour": "09",
+                "hourly_stats": {
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-22T08:05:07-05:00"
+        },
+        {
+            "team_id": "team_69a08a959fb716cd9c43",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 1,
+                    "requests_per_minute": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue",
+                            "Wed",
+                            "Thu"
+                        ],
+                        "data": [
+                            33,
+                            4,
+                            8,
+                            14,
+                            1,
+                            0,
+                            16
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            2,
+                            1,
+                            0,
+                            12,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 8,
+                    "total_posts": 12,
+                    "total_products": 5,
+                    "total_sectors": 4,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_36bf5bbbfa02ff76988c",
+                        "timestamp": "2026-01-22T08:05:03-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_361a6d4aa94f48b152dc",
+                        "timestamp": "2026-01-22T04:07:28-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "draft"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_f93948b6e22a5c3ceff9",
+                        "timestamp": "2026-01-22T04:06:46-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_6baf6c097d9451ae4f28",
+                        "timestamp": "2026-01-22T04:06:05-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_user",
+                        "details": {
+                            "username": "V8110",
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_84e5bd21e84ca3c1491e",
+                        "timestamp": "2026-01-22T04:04:35-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_9de33556ddbf9f7044e0",
+                        "timestamp": "2026-01-22T04:04:35-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "lost"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_ad58b6dcead8d71835c4",
+                        "timestamp": "2026-01-22T04:04:33-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "posted"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_44798aff7ba8160a405b",
+                        "timestamp": "2026-01-22T04:04:32-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "approved"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_09672c85cfa6efe5d445",
+                        "timestamp": "2026-01-22T04:04:31-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_9b18674582ee6bc28428",
+                        "timestamp": "2026-01-22T04:02:28-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "draft"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "V8110"
+                }
+            },
+            "updated_at": "2026-01-22T08:05:07-05:00"
+        },
+        {
+            "team_id": "team_ad0b613568b3da8b5fc3",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 1,
+                "success_rate": 99.2000000000000028421709430404007434844970703125,
+                "avg_response_time": 145,
+                "peak_hour": "02",
+                "hourly_stats": {
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0,
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-25T01:36:31-05:00"
+        },
+        {
+            "team_id": "team_ad0b613568b3da8b5fc3",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 1,
+                    "requests_per_minute": 0,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Mon",
+                            "Tue",
+                            "Wed",
+                            "Thu",
+                            "Fri",
+                            "Sat",
+                            "Sun"
+                        ],
+                        "data": [
+                            14,
+                            1,
+                            0,
+                            16,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 9,
+                    "total_posts": 12,
+                    "total_products": 5,
+                    "total_sectors": 4,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_a5404ae80334aea24b37",
+                        "timestamp": "2026-01-25T01:36:27-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "admin_registered",
+                        "details": {
+                            "payment": "trial"
+                        },
+                        "ip_address": "83.110.214.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "v8110"
+                }
+            },
+            "updated_at": "2026-01-25T01:36:31-05:00"
+        }
+    ],
+    "invites": [
+        {
+            "token": "aa4a403387acb9a8f62e50ede426cb59",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "target_role": "editor",
+            "created_at": "2026-01-22T04:06:16-05:00",
+            "expires_at": "2026-01-29T04:06:16-05:00"
+        }
+    ],
+    "current_user": {
+        "id": "user_e78c330e88a6c30b2fa3",
+        "username": "V8110",
+        "role": "admin",
+        "assigned_panel": ""
+    },
+    "team_meta": {
+        "team_id": "team_69a08a959fb716cd9c43",
+        "generated_at": "2026-01-25T01:56:21-05:00"
+    }
+}

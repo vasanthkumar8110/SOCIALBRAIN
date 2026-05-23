@@ -1,0 +1,1965 @@
+{
+    "posts": [
+        {
+            "id": "post_36b52fde65e068c1afdf",
+            "status": "approved",
+            "created_at": "2026-05-06T14:23:45+00:00",
+            "updated_at": "2026-05-06T14:52:06+00:00",
+            "created_by": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "date": "06-05-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": "prod_dc45f88762a5cdc18fd3",
+            "product_name": "Samsung",
+            "sector_id": "sec_41f399bc5310afbd0f76",
+            "category_id": "cat_69fb4e862927d",
+            "sub_category_id": "subcat_69fb4e9518937",
+            "fb_context": null,
+            "caption": "",
+            "post_time": "10:00 AM",
+            "late_reason": null
+        },
+        {
+            "id": "post_8107d2fd090dda97d604",
+            "status": "draft",
+            "created_at": "2026-05-06T14:23:47+00:00",
+            "updated_at": "2026-05-06T14:24:34+00:00",
+            "created_by": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "date": "04-05-2026",
+            "platform": "instagram",
+            "post_type": "reel",
+            "product_id": "prod_dc45f88762a5cdc18fd3",
+            "product_name": "Samsung",
+            "sector_id": "sec_41f399bc5310afbd0f76",
+            "category_id": "cat_69fb4e862927d",
+            "sub_category_id": "subcat_69fb4e9518937",
+            "fb_context": null,
+            "caption": "",
+            "post_time": "10:00 AM",
+            "late_reason": null
+        }
+    ],
+    "products": [
+        {
+            "id": "prod_dc45f88762a5cdc18fd3",
+            "name": "Samsung",
+            "sector_id": "sec_41f399bc5310afbd0f76",
+            "category_id": "cat_69fb4e862927d",
+            "sub_category_id": "subcat_69fb4e9518937",
+            "print_shop": "12",
+            "product_size": "111",
+            "code": "JU-WCP-1",
+            "price": 200000,
+            "cost": 16000,
+            "active": true,
+            "updated_at": "2026-05-06T14:23:04+00:00",
+            "team_id": "team_dc1227f407da1e23118d",
+            "created_by": "user_3a4da1af3c51cd9685de"
+        }
+    ],
+    "sectors": [
+        {
+            "id": "sec_41f399bc5310afbd0f76",
+            "name": "sector 1",
+            "description": "sds",
+            "active": true,
+            "team_id": "team_dc1227f407da1e23118d"
+        }
+    ],
+    "categories": [
+        {
+            "id": "cat_69fb4e862927d",
+            "name": "cata1",
+            "sector_id": "sec_41f399bc5310afbd0f76",
+            "active": true,
+            "team_id": "team_dc1227f407da1e23118d"
+        }
+    ],
+    "sub_categories": [
+        {
+            "id": "subcat_69fb4e9518937",
+            "name": "sub cata 1 ",
+            "category_id": "cat_69fb4e862927d",
+            "active": true,
+            "team_id": "team_dc1227f407da1e23118d"
+        }
+    ],
+    "platforms": [
+        {
+            "id": "instagram",
+            "name": "Instagram",
+            "icon": "fab fa-instagram",
+            "enabled": true,
+            "post_types": [
+                "feed_post",
+                "story",
+                "reel"
+            ]
+        },
+        {
+            "id": "facebook",
+            "name": "Facebook",
+            "icon": "fab fa-facebook",
+            "enabled": true,
+            "post_types": {
+                "profile": [
+                    "status_update",
+                    "photo",
+                    "video"
+                ],
+                "pages": [
+                    "page_post",
+                    "page_event",
+                    "page_offer"
+                ]
+            }
+        },
+        {
+            "id": "tiktok",
+            "name": "TikTok",
+            "icon": "fab fa-tiktok",
+            "enabled": true,
+            "post_types": [
+                "video",
+                "live"
+            ]
+        },
+        {
+            "id": "youtube",
+            "name": "YouTube",
+            "icon": "fab fa-youtube",
+            "enabled": true,
+            "post_types": [
+                "short",
+                "video"
+            ]
+        },
+        {
+            "id": "linkedin",
+            "name": "LinkedIn",
+            "icon": "fab fa-linkedin",
+            "enabled": true,
+            "post_types": [
+                "post",
+                "article"
+            ]
+        },
+        {
+            "id": "twitter",
+            "name": "Twitter",
+            "icon": "fab fa-twitter",
+            "enabled": true,
+            "post_types": [
+                "tweet",
+                "thread"
+            ]
+        }
+    ],
+    "holidays": [],
+    "tasks": [],
+    "healthcheck": "ok",
+    "users": [
+        {
+            "id": "user_3a4da1af3c51cd9685de",
+            "username": "v8110u",
+            "role": "admin",
+            "team_id": "team_dc1227f407da1e23118d"
+        }
+    ],
+    "logs": [
+        {
+            "id": "log_b815cb6233fb7cbaee87",
+            "timestamp": "2026-05-06T14:58:02+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_09b3abb4fe1c661da575",
+            "timestamp": "2026-05-06T14:52:06+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_36b52fde65e068c1afdf",
+                "old_date": "07-05-2026",
+                "new_date": "06-05-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_979abd9685b5ac71b1a2",
+            "timestamp": "2026-05-06T14:52:04+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_36b52fde65e068c1afdf",
+                "old_date": "06-05-2026",
+                "new_date": "07-05-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_6f90a861004af21da92d",
+            "timestamp": "2026-05-06T14:47:55+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "login_success",
+            "details": {
+                "role": "admin"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_fbd50f09ced41c344f63",
+            "timestamp": "2026-05-06T14:24:04+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "post_rescheduled",
+            "details": {
+                "post_id": "post_36b52fde65e068c1afdf",
+                "old_date": "04-05-2026",
+                "new_date": "06-05-2026"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_b6eb5407f4e2783684ad",
+            "timestamp": "2026-05-06T14:23:04+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "product_added",
+            "details": {
+                "name": "Samsung"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_0ed379844308b8fcdf5c",
+            "timestamp": "2026-05-06T14:22:13+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "sub_category_saved",
+            "details": {
+                "name": "sub cata 1 ",
+                "category_id": "cat_69fb4e862927d"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_50fda6f02a0c887a09c3",
+            "timestamp": "2026-05-06T14:21:58+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "category_saved",
+            "details": {
+                "name": "cata1",
+                "sector_id": "sec_41f399bc5310afbd0f76"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_3beacfea3d7f9c52c3d4",
+            "timestamp": "2026-05-06T14:21:52+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "sector_saved",
+            "details": {
+                "name": "sector 1"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": "log_426c45e0172b36bec8bf",
+            "timestamp": "2026-05-06T14:17:16+00:00",
+            "user_id": "user_3a4da1af3c51cd9685de",
+            "team_id": "team_dc1227f407da1e23118d",
+            "action": "admin_registered",
+            "details": {
+                "payment": "trial"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+        }
+    ],
+    "holiday_refresh_meta": {
+        "team_69a08a959fb716cd9c43": {
+            "date": "2026-01-22",
+            "count": 5,
+            "last_search_at": "2026-01-22T03:01:38-05:00"
+        },
+        "team_c7f2962f66b1002de92a": {
+            "date": "2026-01-17",
+            "count": 1,
+            "last_search_at": "2026-01-17T11:10:07+00:00"
+        },
+        "team_d2b725c22f4de59f1af0": {
+            "date": "2026-01-17",
+            "count": 1,
+            "last_search_at": "2026-01-17T16:54:55-05:00"
+        },
+        "team_ad0b613568b3da8b5fc3": {
+            "date": "2026-05-06",
+            "count": 4,
+            "last_search_at": "2026-05-06T08:43:38-04:00"
+        },
+        "team_36f0bb8e48902d5c0ec0": {
+            "date": "2026-01-27",
+            "count": 4,
+            "last_search_at": "2026-01-27T11:14:57-05:00"
+        },
+        "team_55b28cb4613117962b41": {
+            "date": "2026-05-06",
+            "count": 3,
+            "last_search_at": "2026-05-06T08:52:29-04:00"
+        },
+        "team_dc1227f407da1e23118d": {
+            "date": "2026-05-06",
+            "count": 5,
+            "last_search_at": "2026-05-06T14:21:19+00:00"
+        }
+    },
+    "api_keys": [
+        {
+            "id": "key_8275301d105e5b452aed",
+            "label": "12112",
+            "plan": "b2b",
+            "role": "user",
+            "key": "sb_42bf7b0e1307b1cfad20b6d23915dc66",
+            "status": "active",
+            "created_at": "2026-01-16T19:10:10+00:00",
+            "last_used": null,
+            "team_id": "team_69a08a959fb716cd9c43"
+        },
+        {
+            "id": "key_f526cba2c837bf6ff3a1",
+            "label": "ghjk",
+            "plan": "b2b",
+            "role": "user",
+            "key": "sb_dcf7b903d76fb10a0c7f8df65dba7671",
+            "status": "active",
+            "created_at": "2026-01-16T19:16:48+00:00",
+            "last_used": null,
+            "team_id": "team_69a08a959fb716cd9c43"
+        }
+    ],
+    "rd_snapshots": [
+        {
+            "team_id": "team_c7f2962f66b1002de92a",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 2,
+                    "requests_per_minute": 0.02,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Sun",
+                            "Mon",
+                            "Tue",
+                            "Wed",
+                            "Thu",
+                            "Fri",
+                            "Sat"
+                        ],
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            79,
+                            33,
+                            1
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            9,
+                            12,
+                            8,
+                            3,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 7,
+                    "total_posts": 24,
+                    "total_products": 5,
+                    "total_sectors": 4,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_9d25b0783086d04c8bed",
+                        "timestamp": "2026-01-17T11:09:58+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_a55e8b6c2fab790307b5",
+                        "timestamp": "2026-01-16T21:05:04+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_4d298a1b16492eca6a47",
+                            "old_date": "08-01-2026",
+                            "new_date": "02-01-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_03dcdf9befbe51a6c2d4",
+                        "timestamp": "2026-01-16T21:05:03+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_4d298a1b16492eca6a47",
+                            "old_date": "21-01-2026",
+                            "new_date": "08-01-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_efba93cb2e7f132b27d6",
+                        "timestamp": "2026-01-16T21:05:00+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_4d298a1b16492eca6a47",
+                            "old_date": "02-01-2026",
+                            "new_date": "21-01-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_546419056cbf6ef27d57",
+                        "timestamp": "2026-01-16T20:55:23+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "posted"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_2ccdba1c7e083fca6f97",
+                        "timestamp": "2026-01-16T20:49:43+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "approved"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_4927289e733a55519a14",
+                        "timestamp": "2026-01-16T20:49:37+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "posted"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_ea5eed4c98c97f944491",
+                        "timestamp": "2026-01-16T20:49:36+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "approved"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_7310ab6ccff63cd87ecc",
+                        "timestamp": "2026-01-16T20:49:34+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_c4fc569485931d4deaba",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_6d174562775af47e3227",
+                        "timestamp": "2026-01-16T20:45:46+00:00",
+                        "user_id": "user_7bc995c92da497d460fb",
+                        "team_id": "team_c7f2962f66b1002de92a",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Linux; Android 6.0; Nexus 5 Build\/MRA58N) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Mobile Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "v1"
+                }
+            },
+            "updated_at": "2026-01-17T11:10:02+00:00"
+        },
+        {
+            "team_id": "team_c7f2962f66b1002de92a",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 1,
+                "success_rate": 99.2,
+                "avg_response_time": 145,
+                "peak_hour": 20,
+                "hourly_stats": {
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 1,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0,
+                    "09": 0,
+                    "10": 0,
+                    "11": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-17T11:10:02+00:00"
+        },
+        {
+            "team_id": "team_d2b725c22f4de59f1af0",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 1,
+                "success_rate": 99.2,
+                "avg_response_time": 145,
+                "peak_hour": "09",
+                "hourly_stats": {
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-20T08:17:56-05:00"
+        },
+        {
+            "team_id": "team_d2b725c22f4de59f1af0",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 2,
+                    "requests_per_minute": 0.01,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Wed",
+                            "Thu",
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue"
+                        ],
+                        "data": [
+                            0,
+                            79,
+                            33,
+                            4,
+                            8,
+                            14,
+                            1
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            13,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 8,
+                    "total_posts": 11,
+                    "total_products": 5,
+                    "total_sectors": 4,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_716907c9cae3893071e4",
+                        "timestamp": "2026-01-20T08:17:49-05:00",
+                        "user_id": "user_6d86bbb36542fe385565",
+                        "team_id": "team_d2b725c22f4de59f1af0",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Linux; Android 10; K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Mobile Safari\/537.36"
+                    },
+                    {
+                        "id": "log_316a5a050269a2815921",
+                        "timestamp": "2026-01-19T13:39:12-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "create_task",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "date": "19-01-2026",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_711c914f1da10756a51f",
+                        "timestamp": "2026-01-19T12:56:45-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "delete_task",
+                        "details": {
+                            "task_id": "task_64854a62b3b46287bce2"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_5ad6a53d36fbce0caa05",
+                        "timestamp": "2026-01-19T12:56:37-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_7b7ad955985fbddb2924",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_29b9022fc753eef2699e",
+                        "timestamp": "2026-01-19T12:56:35-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_cfcc6d558851352bc0b7",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_3f2b4890de3f50064276",
+                        "timestamp": "2026-01-19T12:56:32-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_957e86c273cd8e4ade7e",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_b41a7503e12e09d915a5",
+                        "timestamp": "2026-01-19T12:56:30-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_c1457e490caf8044bee9",
+                            "product": "1"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_c8199a02033fcb2ada3e",
+                        "timestamp": "2026-01-19T12:56:28-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_5129c42cf349c79a494b",
+                            "product": "1"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_22f03f8c21d997ed3b14",
+                        "timestamp": "2026-01-19T12:56:27-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_805580f93e676d9249dc",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_bcfe23bb1737da37375b",
+                        "timestamp": "2026-01-19T12:56:26-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_7a5f9b3c76c85481e2cd",
+                            "product": "Planner Post"
+                        },
+                        "ip_address": "83.110.212.226",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "8110"
+                }
+            },
+            "updated_at": "2026-01-20T08:17:56-05:00"
+        },
+        {
+            "team_id": "team_69a08a959fb716cd9c43",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 1,
+                "success_rate": 99.2,
+                "avg_response_time": 145,
+                "peak_hour": "09",
+                "hourly_stats": {
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-22T08:05:07-05:00"
+        },
+        {
+            "team_id": "team_69a08a959fb716cd9c43",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 1,
+                    "requests_per_minute": 0.01,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue",
+                            "Wed",
+                            "Thu"
+                        ],
+                        "data": [
+                            33,
+                            4,
+                            8,
+                            14,
+                            1,
+                            0,
+                            16
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            2,
+                            1,
+                            0,
+                            12,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 8,
+                    "total_posts": 12,
+                    "total_products": 5,
+                    "total_sectors": 4,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_36bf5bbbfa02ff76988c",
+                        "timestamp": "2026-01-22T08:05:03-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_361a6d4aa94f48b152dc",
+                        "timestamp": "2026-01-22T04:07:28-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "draft"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_f93948b6e22a5c3ceff9",
+                        "timestamp": "2026-01-22T04:06:46-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_6baf6c097d9451ae4f28",
+                        "timestamp": "2026-01-22T04:06:05-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_user",
+                        "details": {
+                            "username": "V8110",
+                            "role": "admin"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_84e5bd21e84ca3c1491e",
+                        "timestamp": "2026-01-22T04:04:35-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_9de33556ddbf9f7044e0",
+                        "timestamp": "2026-01-22T04:04:35-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "lost"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_ad58b6dcead8d71835c4",
+                        "timestamp": "2026-01-22T04:04:33-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "posted"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_44798aff7ba8160a405b",
+                        "timestamp": "2026-01-22T04:04:32-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "approved"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_09672c85cfa6efe5d445",
+                        "timestamp": "2026-01-22T04:04:31-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_9b18674582ee6bc28428",
+                        "timestamp": "2026-01-22T04:02:28-05:00",
+                        "user_id": "user_e78c330e88a6c30b2fa3",
+                        "team_id": "team_69a08a959fb716cd9c43",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_d400a6dcb35fae258867",
+                            "status": "draft"
+                        },
+                        "ip_address": "83.110.214.38",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "V8110"
+                }
+            },
+            "updated_at": "2026-01-22T08:05:07-05:00"
+        },
+        {
+            "team_id": "team_36f0bb8e48902d5c0ec0",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 2,
+                    "requests_per_minute": 0.01,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Wed",
+                            "Thu",
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue"
+                        ],
+                        "data": [
+                            0,
+                            16,
+                            0,
+                            0,
+                            37,
+                            1,
+                            14
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            8,
+                            6,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 10,
+                    "total_posts": 20,
+                    "total_products": 4,
+                    "total_sectors": 6,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_be3eddef9ce79238d482",
+                        "timestamp": "2026-01-27T11:14:40-05:00",
+                        "user_id": "user_09e9d8735b6cfabcf098",
+                        "team_id": "team_36f0bb8e48902d5c0ec0",
+                        "action": "all_logs_deleted",
+                        "details": [],
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_a1c03fa53e7866595d83",
+                        "timestamp": "2026-01-27T11:02:07-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "plan_mkwq6e195hlcr",
+                            "old_date": "28-01-2026",
+                            "new_date": "28-01-2026"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_be188a50c685a9c9fe22",
+                        "timestamp": "2026-01-27T11:01:20-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_a427e9010efff55e5c5b",
+                            "old_date": "13-01-2026",
+                            "new_date": "21-01-2026"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_22af595aaad173648da2",
+                        "timestamp": "2026-01-27T11:01:17-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_a427e9010efff55e5c5b",
+                            "old_date": "20-01-2026",
+                            "new_date": "13-01-2026"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_67715c2d199641111171",
+                        "timestamp": "2026-01-27T11:01:15-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_a427e9010efff55e5c5b",
+                            "old_date": "21-01-2026",
+                            "new_date": "20-01-2026"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_adeb89c7ff458a860f66",
+                        "timestamp": "2026-01-27T11:01:03-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_a427e9010efff55e5c5b",
+                            "old_date": "21-01-2026",
+                            "new_date": "21-01-2026"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_2f66a9523e6080172884",
+                        "timestamp": "2026-01-27T10:57:41-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "update_task",
+                        "details": {
+                            "task_id": "task_2626582ee948e032390a",
+                            "date": "25-01-2026",
+                            "status": "posted"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_18d3b261c9670547a35a",
+                        "timestamp": "2026-01-27T10:55:32-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_2626582ee948e032390a",
+                            "status": "ongoing"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_f71e26ba1cd1ca8b646f",
+                        "timestamp": "2026-01-27T10:55:28-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "update_task_status",
+                        "details": {
+                            "task_id": "task_2626582ee948e032390a",
+                            "status": "lost"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_0f8f86c82c9aab17461f",
+                        "timestamp": "2026-01-27T10:55:17-05:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "post_soft_deleted",
+                        "details": {
+                            "post_id": "post_833f21058e1698fc06f1",
+                            "product": "1"
+                        },
+                        "ip_address": "83.110.212.93",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "v8110u2"
+                }
+            },
+            "updated_at": "2026-01-27T11:15:35-05:00"
+        },
+        {
+            "team_id": "team_36f0bb8e48902d5c0ec0",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 2,
+                "success_rate": 99.2,
+                "avg_response_time": 145,
+                "peak_hour": 12,
+                "hourly_stats": {
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0,
+                    "09": 0,
+                    "10": 0,
+                    "11": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-01-27T11:15:35-05:00"
+        },
+        {
+            "team_id": "team_ad0b613568b3da8b5fc3",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 1,
+                    "requests_per_minute": 0,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Thu",
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue",
+                            "Wed"
+                        ],
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 10,
+                    "total_posts": 14,
+                    "total_products": 4,
+                    "total_sectors": 6,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_e6581f14e5390801a778",
+                        "timestamp": "2026-05-06T08:38:30-04:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "42.106.177.213",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "v8110"
+                }
+            },
+            "updated_at": "2026-05-06T08:44:22-04:00"
+        },
+        {
+            "team_id": "team_ad0b613568b3da8b5fc3",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 2,
+                "success_rate": 99.2,
+                "avg_response_time": 145,
+                "peak_hour": "09",
+                "hourly_stats": {
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-05-06T08:44:22-04:00"
+        },
+        {
+            "team_id": "team_55b28cb4613117962b41",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 2,
+                    "requests_per_minute": 0,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Thu",
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue",
+                            "Wed"
+                        ],
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            2
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            2,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 11,
+                    "total_posts": 14,
+                    "total_products": 4,
+                    "total_sectors": 6,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_f363adf6f8afefd5a2b5",
+                        "timestamp": "2026-05-06T08:49:35-04:00",
+                        "user_id": "user_6c217ed7bafa1df94ba4",
+                        "team_id": "team_55b28cb4613117962b41",
+                        "action": "admin_registered",
+                        "details": {
+                            "payment": "trial"
+                        },
+                        "ip_address": "42.106.179.19",
+                        "user_agent": "Mozilla\/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/18.7.5 Mobile\/15E148 Safari\/604.1"
+                    },
+                    {
+                        "id": "log_e6581f14e5390801a778",
+                        "timestamp": "2026-05-06T08:38:30-04:00",
+                        "user_id": "user_29762423d938946a5190",
+                        "team_id": "team_ad0b613568b3da8b5fc3",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "42.106.177.213",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "Vasanthh"
+                }
+            },
+            "updated_at": "2026-05-06T08:52:27-04:00"
+        },
+        {
+            "team_id": "team_55b28cb4613117962b41",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 2,
+                "success_rate": 99.2,
+                "avg_response_time": 145,
+                "peak_hour": "09",
+                "hourly_stats": {
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-05-06T08:52:28-04:00"
+        },
+        {
+            "team_id": "team_dc1227f407da1e23118d",
+            "type": "overview",
+            "snapshot": {
+                "metrics": {
+                    "active_users": 3,
+                    "requests_per_minute": 0.01,
+                    "error_rate": 0,
+                    "health_score": 100,
+                    "api_success_rate": 99.5,
+                    "avg_response_time": 120
+                },
+                "charts": {
+                    "activity": {
+                        "labels": [
+                            "Thu",
+                            "Fri",
+                            "Sat",
+                            "Sun",
+                            "Mon",
+                            "Tue",
+                            "Wed"
+                        ],
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            12
+                        ]
+                    },
+                    "performance": {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            2,
+                            0,
+                            10,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "system_stats": {
+                    "total_users": 12,
+                    "total_posts": 16,
+                    "total_products": 5,
+                    "total_sectors": 7,
+                    "api_keys": 2,
+                    "uptime": "99.9%"
+                },
+                "recent_activity": [
+                    {
+                        "id": "log_b815cb6233fb7cbaee87",
+                        "timestamp": "2026-05-06T14:58:02+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_09b3abb4fe1c661da575",
+                        "timestamp": "2026-05-06T14:52:06+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_36b52fde65e068c1afdf",
+                            "old_date": "07-05-2026",
+                            "new_date": "06-05-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_979abd9685b5ac71b1a2",
+                        "timestamp": "2026-05-06T14:52:04+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_36b52fde65e068c1afdf",
+                            "old_date": "06-05-2026",
+                            "new_date": "07-05-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_6f90a861004af21da92d",
+                        "timestamp": "2026-05-06T14:47:55+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "login_success",
+                        "details": {
+                            "role": "admin"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_fbd50f09ced41c344f63",
+                        "timestamp": "2026-05-06T14:24:04+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "post_rescheduled",
+                        "details": {
+                            "post_id": "post_36b52fde65e068c1afdf",
+                            "old_date": "04-05-2026",
+                            "new_date": "06-05-2026"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_b6eb5407f4e2783684ad",
+                        "timestamp": "2026-05-06T14:23:04+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "product_added",
+                        "details": {
+                            "name": "Samsung"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_0ed379844308b8fcdf5c",
+                        "timestamp": "2026-05-06T14:22:13+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "sub_category_saved",
+                        "details": {
+                            "name": "sub cata 1 ",
+                            "category_id": "cat_69fb4e862927d"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_50fda6f02a0c887a09c3",
+                        "timestamp": "2026-05-06T14:21:58+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "category_saved",
+                        "details": {
+                            "name": "cata1",
+                            "sector_id": "sec_41f399bc5310afbd0f76"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_3beacfea3d7f9c52c3d4",
+                        "timestamp": "2026-05-06T14:21:52+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "sector_saved",
+                        "details": {
+                            "name": "sector 1"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    },
+                    {
+                        "id": "log_426c45e0172b36bec8bf",
+                        "timestamp": "2026-05-06T14:17:16+00:00",
+                        "user_id": "user_3a4da1af3c51cd9685de",
+                        "team_id": "team_dc1227f407da1e23118d",
+                        "action": "admin_registered",
+                        "details": {
+                            "payment": "trial"
+                        },
+                        "ip_address": "::1",
+                        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36"
+                    }
+                ],
+                "current_user": {
+                    "role": "admin",
+                    "username": "v8110u"
+                }
+            },
+            "updated_at": "2026-05-06T14:58:07+00:00"
+        },
+        {
+            "team_id": "team_dc1227f407da1e23118d",
+            "type": "api_analytics",
+            "snapshot": {
+                "total_calls": 2,
+                "success_rate": 99.2,
+                "avg_response_time": 145,
+                "peak_hour": 15,
+                "hourly_stats": {
+                    "15": 0,
+                    "16": 0,
+                    "17": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 0,
+                    "21": 0,
+                    "22": 0,
+                    "23": 0,
+                    "00": 0,
+                    "01": 0,
+                    "02": 0,
+                    "03": 0,
+                    "04": 0,
+                    "05": 0,
+                    "06": 0,
+                    "07": 0,
+                    "08": 0,
+                    "09": 0,
+                    "10": 0,
+                    "11": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0
+                },
+                "top_endpoints": {
+                    "get_data": 45,
+                    "save_post": 32,
+                    "api_get_all": 28,
+                    "save_product": 15
+                },
+                "geographic_distribution": {
+                    "US": 45,
+                    "EU": 30,
+                    "ASIA": 20,
+                    "OTHER": 5
+                }
+            },
+            "updated_at": "2026-05-06T14:58:07+00:00"
+        }
+    ],
+    "invites": [
+        {
+            "token": "aa4a403387acb9a8f62e50ede426cb59",
+            "created_by": "user_e78c330e88a6c30b2fa3",
+            "team_id": "team_69a08a959fb716cd9c43",
+            "target_role": "editor",
+            "created_at": "2026-01-22T04:06:16-05:00",
+            "expires_at": "2026-01-29T04:06:16-05:00"
+        }
+    ],
+    "current_user": {
+        "id": "user_3a4da1af3c51cd9685de",
+        "username": "v8110u",
+        "role": "admin",
+        "assigned_panel": ""
+    },
+    "team_meta": {
+        "team_id": "team_dc1227f407da1e23118d",
+        "generated_at": "2026-05-06T15:09:20+00:00"
+    }
+}

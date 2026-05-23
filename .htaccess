@@ -1,0 +1,13 @@
+<FilesMatch "\.json$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+Options -Indexes
+
+# Security: do not commit credentials into source control.
+# Configure these via Apache vhost / environment variables instead.
+# Example (Apache vhost): SetEnv SB_DB_HOST 127.0.0.1
+# SetEnv SB_DB_NAME socialbrainv1
+# SetEnv SB_DB_USER root
+# SetEnv SB_DB_PASS your_password

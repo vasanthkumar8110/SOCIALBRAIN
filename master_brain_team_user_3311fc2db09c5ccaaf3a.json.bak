@@ -1,0 +1,105 @@
+{
+    "posts": [],
+    "products": [],
+    "sectors": [],
+    "categories": [],
+    "sub_categories": [],
+    "platforms": [
+        {
+            "id": "instagram",
+            "name": "Instagram",
+            "icon": "fab fa-instagram",
+            "enabled": true,
+            "post_types": [
+                "feed_post",
+                "story",
+                "reel"
+            ]
+        },
+        {
+            "id": "facebook",
+            "name": "Facebook",
+            "icon": "fab fa-facebook",
+            "enabled": true,
+            "post_types": {
+                "profile": [
+                    "status_update",
+                    "photo",
+                    "video"
+                ],
+                "pages": [
+                    "page_post",
+                    "page_event",
+                    "page_offer"
+                ]
+            }
+        },
+        {
+            "id": "tiktok",
+            "name": "TikTok",
+            "icon": "fab fa-tiktok",
+            "enabled": true,
+            "post_types": [
+                "video",
+                "live"
+            ]
+        },
+        {
+            "id": "youtube",
+            "name": "YouTube",
+            "icon": "fab fa-youtube",
+            "enabled": true,
+            "post_types": [
+                "short",
+                "video"
+            ]
+        },
+        {
+            "id": "linkedin",
+            "name": "LinkedIn",
+            "icon": "fab fa-linkedin",
+            "enabled": true,
+            "post_types": [
+                "post",
+                "article"
+            ]
+        },
+        {
+            "id": "twitter",
+            "name": "Twitter",
+            "icon": "fab fa-twitter",
+            "enabled": true,
+            "post_types": [
+                "tweet",
+                "thread"
+            ]
+        }
+    ],
+    "holidays": [],
+    "tasks": [],
+    "healthcheck": "ok",
+    "users": [],
+    "logs": [
+        {
+            "id": "log_1f0c6fc2b295323a8845",
+            "timestamp": "2026-01-15T12:12:30+00:00",
+            "user_id": "user_3311fc2db09c5ccaaf3a",
+            "action": "login_success",
+            "details": {
+                "role": "editor"
+            },
+            "ip_address": "::1",
+            "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36"
+        }
+    ],
+    "current_user": {
+        "id": "user_3311fc2db09c5ccaaf3a",
+        "username": "a2e",
+        "role": "editor",
+        "assigned_panel": ""
+    },
+    "team_meta": {
+        "team_id": "team_user_3311fc2db09c5ccaaf3a",
+        "generated_at": "2026-01-15T12:12:31+00:00"
+    }
+}

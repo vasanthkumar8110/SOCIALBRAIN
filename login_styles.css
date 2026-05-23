@@ -1,0 +1,147 @@
+/* login_styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: #6366f1; /* Indigo */
+    --editor-color: #10b981;  /* Emerald */
+    --viewer-color: #f59e0b;  /* Amber */
+    --bg-dark: #0f172a;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Outfit', sans-serif; }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.15) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.15) 0%, transparent 20%);
+}
+
+.login-container {
+    background: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--glass-border);
+    padding: 3rem;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 { font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.025em; }
+p { color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem; }
+
+.role-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+    background: rgba(255,255,255,0.1);
+}
+
+.role-admin .role-badge { color: var(--primary-color); background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2); }
+.role-editor .role-badge { color: var(--editor-color); background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.2); }
+.role-viewer .role-badge { color: var(--viewer-color); background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.2); }
+
+.input-group { margin-bottom: 1.25rem; text-align: left; }
+label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem; margin-left: 0.25rem; }
+input {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    width: 100%;
+    padding: 0.875rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: white;
+    color: var(--bg-dark);
+    margin-top: 1rem;
+}
+
+.btn:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1); }
+.btn:active { transform: translateY(0); }
+
+.btn-admin { background: var(--primary-color); color: white; }
+.btn-admin:hover { background: #4f46e5; box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4); }
+
+.btn-editor { background: var(--editor-color); color: white; }
+.btn-editor:hover { background: #059669; box-shadow: 0 10px 20px -5px rgba(16, 185, 129, 0.4); }
+
+.btn-viewer { background: var(--viewer-color); color: white; }
+.btn-viewer:hover { background: #d97706; box-shadow: 0 10px 20px -5px rgba(245, 158, 11, 0.4); }
+
+.links { margin-top: 1.5rem; font-size: 0.9rem; }
+.links a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+.links a:hover { color: white; }
+
+/* Landing Page Specific */
+.portal-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.portal-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portal-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.portal-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+
+@media (max-width: 768px) {
+    .portal-grid { grid-template-columns: 1fr; }
+}

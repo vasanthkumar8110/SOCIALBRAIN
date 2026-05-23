@@ -1,0 +1,92 @@
+{
+    "grid": [
+        {
+            "image": "uploads\/research\/res_1769528658_6978dd521f69f.png",
+            "type": "image",
+            "id": "plan_mkwrocb1zclq5",
+            "schedule": "2026-01-26T19:44",
+            "product_id": "prod_6d4ce1daf0eee2f943ee",
+            "product_name": "1",
+            "platform_id": "facebook",
+            "hashtags": "#explore #trending #viral",
+            "caption": "🔥 Hot take: q is the new black. Do you agree?"
+        },
+        {
+            "image": "uploads\/research\/res_1769528573_6978dcfd84b1f.jpg",
+            "type": "image",
+            "id": "plan_mkwrmj1idbl2y",
+            "schedule": "2026-01-27T19:43",
+            "product_id": "prod_6d4ce1daf0eee2f943ee",
+            "product_name": "1",
+            "caption": "Obsessed with make a rollups right now! Can you relate?",
+            "hashtags": "#trending #explore #viral",
+            "platform_id": "tiktok"
+        },
+        {
+            "image": "uploads\/research\/res_1769526140_6978d37c7baaf.jpg",
+            "type": "image",
+            "id": "plan_mkwq6e195hlcr",
+            "schedule": "2026-01-28T19:46",
+            "product_id": "prod_6d4ce1daf0eee2f943ee",
+            "product_name": "1",
+            "platform_id": "tiktok"
+        },
+        {
+            "image": "uploads\/research\/res_1769526128_6978d370380d7.jpg",
+            "type": "image",
+            "id": "plan_mkwq64kbw1cr3",
+            "product_id": "prod_6d4ce1daf0eee2f943ee",
+            "product_name": "1",
+            "schedule": "2026-01-29T19:43",
+            "platform_id": "youtube"
+        },
+        {
+            "image": "uploads\/research\/res_1769528712_6978dd889eb4e.png",
+            "type": "image",
+            "id": "plan_mkwrpid3gim6o",
+            "product_id": "prod_6d4ce1daf0eee2f943ee",
+            "product_name": "1",
+            "schedule": "2026-01-30T19:45",
+            "platform_id": "tiktok"
+        },
+        {
+            "product_id": "prod_6d4ce1daf0eee2f943ee",
+            "product_name": "1",
+            "id": "plan_mku1n5pncmixl",
+            "caption": "✨ qsas vibes only! #SocialBrain #qsas",
+            "schedule": "2026-01-31T22:00",
+            "image": "uploads\/research\/res_1769526118_6978d3666ac10.png",
+            "type": "image",
+            "platform_id": "youtube"
+        },
+        {
+            "type": "reel",
+            "image": "uploads\/research\/res_1769529050_6978deda690ad.mp4",
+            "id": "plan_mkwrwqzutgvax",
+            "platform_id": "facebook"
+        },
+        {
+            "type": "carousel",
+            "images": [
+                "uploads\/research\/res_1769529144_6978df38b0f54.png",
+                "uploads\/research\/res_1769529147_6978df3b2d2b0.png",
+                "uploads\/research\/res_1769529147_6978df3badfc3.jpg"
+            ],
+            "image": "uploads\/research\/res_1769529144_6978df38b0f54.png",
+            "id": "plan_mkwryu1weeurw",
+            "platform_id": "facebook"
+        },
+        null
+    ],
+    "mood": {
+        "palette": [
+            "#006af5",
+            "#000000",
+            "#b9db0f",
+            "#3587f3",
+            "#1f4e0d"
+        ],
+        "vibe": "Dark & Moody",
+        "notes": "Focus for every movements"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "grid": [
+        {
+            "id": "post_7e105b79dc260fe03ff0",
+            "image": "uploads\/research\/res_1768509480_696950284a314.png",
+            "caption": "111",
+            "schedule": "2026-01-02T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_666e2385e7c9bfbad6ec",
+            "image": "uploads\/research\/res_1768509738_6969512a2ae36.jpg",
+            "caption": "qqq",
+            "schedule": "2026-01-03T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "platform_id": "facebook"
+        },
+        {
+            "id": "post_14241af1090ed50d925c",
+            "image": "",
+            "caption": "retyu",
+            "schedule": "2026-01-06T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_57df4f37dfa93105165f",
+            "image": "",
+            "caption": "oiuyt",
+            "schedule": "2026-01-07T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_105b900e1980db584134",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-08T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_7b7ad955985fbddb2924",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-09T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_7a5f9b3c76c85481e2cd",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-09T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_cfcc6d558851352bc0b7",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-11T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_805580f93e676d9249dc",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-12T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_89266e1bcd6629cdae7c",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-13T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "1",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_957e86c273cd8e4ade7e",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-15T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_5129c42cf349c79a494b",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-16T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": "prod_3b3bc2ee5c7b4e292e28",
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_9b32e39bba2da6facf07",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-22T12:00",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_14241af1090ed50d925c",
+            "image": "uploads\/research\/res_1768551752_6969f548340b6.webp",
+            "caption": "",
+            "schedule": "",
+            "hashtags": "",
+            "type": "image",
+            "product_id": null,
+            "product_name": "Planner Post",
+            "platform_id": "instagram"
+        }
+    ],
+    "mood": {
+        "palette": [
+            "#e2e8f0",
+            "#e2e8f0",
+            "#e2e8f0",
+            "#e2e8f0",
+            "#e2e8f0"
+        ],
+        "vibe": "Professional",
+        "notes": ""
+    }
+}

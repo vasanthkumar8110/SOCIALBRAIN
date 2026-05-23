@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SocialBrain - Unified secure access portal for intelligent social management.">
+    <title>SocialBrain - Secure Access Portal</title>
+    <!-- Outfit Font & Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-hover: #4f46e5;
+            --secondary: #10b981;
+            --secondary-hover: #059669;
+            --accent: #f59e0b;
+            --bg-dark: #090d16;
+            --card-bg: rgba(15, 23, 42, 0.45);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --input-bg: rgba(0, 0, 0, 0.25);
+            --input-border: rgba(255, 255, 255, 0.08);
+            --input-focus: #6366f1;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --text-error: #f87171;
+            --text-success: #34d399;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+            position: relative;
+            padding: 20px;
+        }
+
+        /* Animated Blob Background */
+        .bg-blobs {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.15;
+            animation: move 25s infinite alternate ease-in-out;
+        }
+
+        .blob-1 {
+            width: 500px;
+            height: 500px;
+            background: var(--primary);
+            top: -10%;
+            left: -10%;
+        }
+
+        .blob-2 {
+            width: 450px;
+            height: 450px;
+            background: var(--secondary);
+            bottom: -5%;
+            right: -5%;
+            animation-delay: -5s;
+            animation-duration: 30s;
+        }
+
+        .blob-3 {
+            width: 350px;
+            height: 350px;
+            background: #a855f7;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: -10s;
+        }
+
+        @keyframes move {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(80px, 50px) scale(1.1); }
+            100% { transform: translate(-40px, 80px) scale(0.95); }
+        }
+
+        /* Glassmorphism Container */
+        .glass-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid var(--card-border);
+            border-radius: 28px;
+            width: 100%;
+            max-width: 450px;
+            padding: 2.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            animation: cardEntrance 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            position: relative;
+            z-index: 10;
+        }
+
+        @keyframes cardEntrance {
+            from { opacity: 0; transform: translateY(40px) scale(0.97); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        /* Brand Identity */
+        .brand {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .brand-logo {
+            background: linear-gradient(135deg, var(--primary) 0%, #8b5cf6 100%);
+            width: 60px;
+            height: 60px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+            margin-bottom: 1rem;
+        }
+
+        .brand-logo .material-icons {
+            font-size: 32px;
+            color: white;
+        }
+
+        .brand h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            background: linear-gradient(to right, #ffffff, #cbd5e1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .brand p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+
+        /* Tab Navigation */
+        .tabs {
+            display: flex;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 4px;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 0.65rem;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .tab-btn .material-icons {
+            font-size: 18px;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-main);
+        }
+
+        .tab-btn.active {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-main);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+
+        /* Dynamic Badges */
+        .badge {
+            align-self: center;
+            padding: 0.25rem 0.75rem;
+            border-radius: 99px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .badge-invite {
+            color: var(--secondary);
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .badge-admin {
+            color: var(--primary);
+            background: rgba(99, 102, 241, 0.08);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        .badge-recovery {
+            color: var(--accent);
+            background: rgba(245, 158, 11, 0.08);
+            border: 1px solid rgba(245, 158, 11, 0.2);
+        }
+
+        /* Form Controls */
+        .form-panel {
+            display: none;
+            flex-direction: column;
+            animation: formTransition 0.4s ease forwards;
+        }
+
+        .form-panel.active {
+            display: flex;
+        }
+
+        @keyframes formTransition {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .input-group {
+            margin-bottom: 1.25rem;
+            position: relative;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            margin-left: 0.25rem;
+        }
+
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-wrapper .material-icons.input-icon {
+            position: absolute;
+            left: 14px;
+            color: var(--text-muted);
+            font-size: 20px;
+            pointer-events: none;
+            transition: color 0.3s;
+        }
+
+        .input-wrapper input, .input-wrapper select {
+            width: 100%;
+            padding: 0.8rem 1rem 0.8rem 2.8rem;
+            background: var(--input-bg);
+            border: 1px solid var(--input-border);
+            border-radius: 12px;
+            color: var(--text-main);
+            font-size: 0.95rem;
+            transition: all 0.25s ease;
+        }
+
+        /* Add padding right for inputs with eye toggle */
+        .input-wrapper input[type="password"],
+        .input-wrapper input.with-toggle {
+            padding-right: 2.8rem;
+        }
+
+        .input-wrapper select {
+            appearance: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+
+        .input-wrapper select option {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+        }
+
+        .input-wrapper input:focus, .input-wrapper select:focus {
+            outline: none;
+            border-color: var(--input-focus);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+            background: rgba(0, 0, 0, 0.35);
+        }
+
+        .input-wrapper input:focus ~ .input-icon,
+        .input-wrapper select:focus ~ .input-icon {
+            color: var(--input-focus);
+        }
+
+        /* Password Visibility Toggle */
+        .eye-toggle {
+            position: absolute;
+            right: 12px;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px;
+            border-radius: 50%;
+            transition: color 0.2s;
+        }
+
+        .eye-toggle:hover {
+            color: var(--text-main);
+        }
+
+        /* Form Extras */
+        .form-extras {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: -0.25rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.85rem;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-muted);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            width: 16px;
+            height: 16px;
+            accent-color: var(--primary);
+            cursor: pointer;
+        }
+
+        .forgot-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .forgot-link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Password Strength Meter */
+        .strength-container {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding: 0 0.25rem;
+        }
+
+        .strength-bar-bg {
+            height: 4px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 99px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .strength-bar-fill {
+            height: 100%;
+            width: 0;
+            background: var(--text-error);
+            border-radius: 99px;
+            transition: all 0.4s ease;
+        }
+
+        .strength-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.35rem;
+        }
+
+        .strength-label span {
+            font-weight: 600;
+        }
+
+        /* Buttons */
+        .btn {
+            width: 100%;
+            padding: 0.85rem;
+            border: none;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, #4f46e5 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.35);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, var(--secondary) 0%, #059669 100%);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(16, 185, 129, 0.35);
+        }
+
+        .btn-secondary:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+
+        .btn-text {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-weight: 500;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            align-self: center;
+            transition: color 0.2s;
+        }
+
+        .btn-text:hover {
+            color: var(--text-main);
+        }
+
+        .btn-text .material-icons {
+            font-size: 16px;
+        }
+
+        /* Alert System */
+        .alert-box {
+            position: absolute;
+            top: 2.5rem;
+            left: 2.5rem;
+            right: 2.5rem;
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            display: none;
+            align-items: center;
+            gap: 10px;
+            z-index: 50;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3);
+            animation: alertSlideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes alertSlideIn {
+            from { opacity: 0; transform: translateY(-15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .alert-box.active {
+            display: flex;
+        }
+
+        .alert-success {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            color: var(--text-success);
+        }
+
+        .alert-error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: var(--text-error);
+        }
+
+        .alert-close {
+            margin-left: auto;
+            background: none;
+            border: none;
+            color: inherit;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        .alert-close:hover {
+            opacity: 1;
+        }
+
+        .alert-close .material-icons {
+            font-size: 16px;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 0.8s linear infinite;
+            display: none;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Form transition elements spacing */
+        .spaced-element {
+            margin-top: 1rem;
+        }
+
+        /* Responsive Utilities */
+        @media (max-width: 480px) {
+            .glass-card {
+                padding: 1.75rem;
+                border-radius: 20px;
+            }
+            .brand h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Blobs -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Card -->
+    <div class="glass-card">
+        <!-- Elegant Internal Toast Notifications -->
+        <div id="toastAlert" class="alert-box">
+            <span class="material-icons alert-icon" id="toastIcon">info</span>
+            <span id="toastMsg">Notification message</span>
+            <button class="alert-close" onclick="closeToast()">
+                <span class="material-icons">close</span>
+            </button>
+        </div>
+
+        <!-- Brand Block -->
+        <div class="brand">
+            <div class="brand-logo">
+                <span class="material-icons">psychology</span>
+            </div>
+            <h1>SocialBrain</h1>
+            <p>Intelligence System v2.0</p>
+        </div>
+
+        <!-- Tab Selection (Hidden in Recovery Mode) -->
+        <div class="tabs" id="tabNav">
+            <button class="tab-btn active" id="tabBtnLogin" onclick="switchForm('login')">
+                <span class="material-icons">login</span> Sign In
+            </button>
+            <button class="tab-btn" id="tabBtnRegister" onclick="switchForm('register')">
+                <span class="material-icons">person_add</span> Create Account
+            </button>
+        </div>
+
+        <!-- Role context or recovery state badge -->
+        <div style="display: flex; justify-content: center;">
+            <div id="contextBadge" class="badge badge-admin" style="display: none;">Admin Account</div>
+        </div>
+
+        <!-- Form Panel: Unified Sign-In -->
+        <form id="loginForm" class="form-panel active" onsubmit="handleLogin(event)">
+            <div class="input-group">
+                <label for="loginUsername">Username</label>
+                <div class="input-wrapper">
+                    <span class="material-icons input-icon">account_circle</span>
+                    <input type="text" id="loginUsername" placeholder="Enter username" required autocomplete="username">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="loginPassword">Password</label>
+                <div class="input-wrapper">
+                    <span class="material-icons input-icon">lock</span>
+                    <input type="password" id="loginPassword" placeholder="••••••••" required autocomplete="current-password">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('loginPassword')">
+                        <span class="material-icons eye-icon">visibility</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="form-extras">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="loginRemember"> Remember me
+                </label>
+                <a href="#" class="forgot-link" onclick="enterRecoveryMode(event)">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                <span>Secure Sign In</span>
+                <div class="spinner"></div>
+            </button>
+        </form>
+
+        <!-- Form Panel: Create Account (Handles Invite & Admin Registration) -->
+        <form id="registerForm" class="form-panel" onsubmit="handleRegister(event)">
+            <!-- Prefilled Invite Token (Hidden by default unless query param present) -->
+            <input type="hidden" id="regToken">
+            
+            <!-- Visible Read-Only Token Info when Invite present -->
+            <div class="input-group" id="regTokenGroup" style="display: none;">
+                <label>Access Code</label>
+                <div class="input-wrapper">
+                    <span class="material-icons input-icon">vpn_key</span>
+                    <input type="text" id="regTokenVisible" readonly style="opacity: 0.7; cursor: not-allowed; border-color: rgba(16, 185, 129, 0.4);">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="regUsername">Choose Username</label>
+                <div class="input-wrapper">
+                    <span class="material-icons input-icon">assignment_ind</span>
+                    <input type="text" id="regUsername" placeholder="e.g. system_admin" required autocomplete="username" oninput="validateUsernameInput(this)">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="regPassword">Set Password</label>
+                <div class="input-wrapper">
+                    <span class="material-icons input-icon">key</span>
+                    <input type="password" id="regPassword" placeholder="••••••••" required autocomplete="new-password" oninput="evaluatePasswordStrength(this.value)">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('regPassword')">
+                        <span class="material-icons eye-icon">visibility</span>
+                    </button>
+                </div>
+                <!-- Strength Indicator -->
+                <div class="strength-container">
+                    <div class="strength-bar-bg">
+                        <div id="strengthBar" class="strength-bar-fill"></div>
+                    </div>
+                    <div class="strength-label">
+                        <span>Password Strength:</span>
+                        <span id="strengthText">Too short</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="regConfirmPassword">Confirm Password</label>
+                <div class="input-wrapper">
+                    <span class="material-icons input-icon">enhanced_encryption</span>
+                    <input type="password" id="regConfirmPassword" placeholder="••••••••" required autocomplete="new-password">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('regConfirmPassword')">
+                        <span class="material-icons eye-icon">visibility</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Standard Admin Recovery Security Fields (Hidden in Invite Registration) -->
+            <div id="adminRecoveryFields">
+                <div class="input-group">
+                    <label for="regSecretQ">Recovery Secret Question</label>
+                    <div class="input-wrapper">
+                        <span class="material-icons input-icon">quiz</span>
+                        <select id="regSecretQ" required>
+                            <option value="" disabled selected>Select a security question</option>
+                            <option value="What is the name of your first pet?">What is the name of your first pet?</option>
+                            <option value="What is the city you were born in?">What is the city you were born in?</option>
+                            <option value="What was the name of your first school?">What was the name of your first school?</option>
+                            <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+                            <option value="What is the name of your favorite book?">What is the name of your favorite book?</option>
+                        </select>
+                        <span class="material-icons" style="position: absolute; right: 14px; color: var(--text-muted); pointer-events: none;">expand_more</span>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="regSecretA">Secret Answer</label>
+                    <div class="input-wrapper">
+                        <span class="material-icons input-icon">fact_check</span>
+                        <input type="text" id="regSecretA" placeholder="Answer (case-insensitive)" required autocomplete="off">
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-secondary" id="regBtn">
+                <span id="regBtnText">Create Account</span>
+                <div class="spinner"></div>
+            </button>
+        </form>
+
+        <!-- Form Panel: 2-Step Password Recovery -->
+        <form id="recoverForm" class="form-panel" onsubmit="handleRecoverySubmit(event)">
+            <!-- Recovery Step 1: Request Username -->
+            <div id="recoveryStep1">
+                <div class="input-group">
+                    <label for="recoverUsername">Enter Username</label>
+                    <div class="input-wrapper">
+                        <span class="material-icons input-icon">account_circle</span>
+                        <input type="text" id="recoverUsername" placeholder="Your username" autocomplete="username">
+                    </div>
+                </div>
+                
+                <button type="button" class="btn btn-primary" onclick="proceedToRecoveryStep2()">
+                    <span>Verify Account</span>
+                    <div class="spinner" id="recoveryStep1Spinner"></div>
+                </button>
+            </div>
+
+            <!-- Recovery Step 2: Answer Question & Set New Password -->
+            <div id="recoveryStep2" style="display: none;">
+                <div class="input-group" style="background: rgba(255,255,255,0.03); padding: 1rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1.5rem;">
+                    <p style="color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; font-weight: 600; margin-bottom: 0.25rem;">Security Question</p>
+                    <p style="color: var(--text-main); font-weight: 500; font-size: 0.95rem; line-height: 1.4;" id="securityQuestionText">Loading...</p>
+                </div>
+
+                <div class="input-group">
+                    <label for="recoverSecretA">Your Secret Answer</label>
+                    <div class="input-wrapper">
+                        <span class="material-icons input-icon">verified_user</span>
+                        <input type="text" id="recoverSecretA" placeholder="Enter answer exactly" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="recoverNewPassword">New Secure Password</label>
+                    <div class="input-wrapper">
+                        <span class="material-icons input-icon">key</span>
+                        <input type="password" id="recoverNewPassword" placeholder="••••••••" autocomplete="new-password" oninput="evaluateRecoveryPasswordStrength(this.value)">
+                        <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('recoverNewPassword')">
+                            <span class="material-icons eye-icon">visibility</span>
+                        </button>
+                    </div>
+                    <!-- Recovery Strength Indicator -->
+                    <div class="strength-container">
+                        <div class="strength-bar-bg">
+                            <div id="recoverStrengthBar" class="strength-bar-fill"></div>
+                        </div>
+                        <div class="strength-label">
+                            <span>Password Strength:</span>
+                            <span id="recoverStrengthText">Too short</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="recoverConfirmPassword">Confirm New Password</label>
+                    <div class="input-wrapper">
+                        <span class="material-icons input-icon">enhanced_encryption</span>
+                        <input type="password" id="recoverConfirmPassword" placeholder="••••••••" autocomplete="new-password">
+                        <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('recoverConfirmPassword')">
+                            <span class="material-icons eye-icon">visibility</span>
+                        </button>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-secondary">
+                    <span>Save & Update Password</span>
+                    <div class="spinner"></div>
+                </button>
+            </div>
+
+            <!-- Cancel Button back to Login -->
+            <button type="button" class="btn-text" onclick="exitRecoveryMode()">
+                <span class="material-icons">arrow_back</span> Return to Sign In
+            </button>
+        </form>
+    </div>
+
+    <!-- Scripting Layer -->
+    <script>
+        // --- State Management ---
+        let currentTab = 'login';
+        let isInviteFlow = false;
+        let recoveryUsername = '';
+        let timerToast = null;
+
+        // Initialize state on DOM ready
+        document.addEventListener('DOMContentLoaded', () => {
+            detectUrlContext();
+        });
+
+        // Detect invite tokens or recovery state in the URL
+        function detectUrlContext() {
+            const params = new URLSearchParams(window.location.search);
+            const token = params.get('invite');
+
+            if (token) {
+                isInviteFlow = true;
+                
+                // Configure Form variables
+                document.getElementById('regToken').value = token;
+                document.getElementById('regTokenVisible').value = token.slice(0, 16) + '...';
+                document.getElementById('regTokenGroup').style.display = 'block';
+                
+                // Set visible badges and UI contexts
+                const badge = document.getElementById('contextBadge');
+                badge.innerText = 'Team Invitation';
+                badge.className = 'badge badge-invite';
+                badge.style.display = 'inline-flex';
+                
+                // Hide recovery credentials (invite flow handles standard details only)
+                document.getElementById('adminRecoveryFields').style.display = 'none';
+                
+                // Make Recovery Question and Answer not required in invite register
+                document.getElementById('regSecretQ').removeAttribute('required');
+                document.getElementById('regSecretA').removeAttribute('required');
+                
+                // Customize button texts
+                document.getElementById('regBtnText').innerText = 'Join Team';
+                document.getElementById('regBtn').className = 'btn btn-secondary';
+
+                // Automatically switch to registration tab
+                switchForm('register');
+            } else {
+                isInviteFlow = false;
+                
+                // Prepare Admin Registration Context
+                document.getElementById('regTokenGroup').style.display = 'none';
+                document.getElementById('adminRecoveryFields').style.display = 'block';
+                document.getElementById('regSecretQ').setAttribute('required', 'required');
+                document.getElementById('regSecretA').setAttribute('required', 'required');
+                
+                const badge = document.getElementById('contextBadge');
+                badge.innerText = 'Admin Trial Access';
+                badge.className = 'badge badge-admin';
+                badge.style.display = 'inline-flex';
+
+                document.getElementById('regBtnText').innerText = 'Start Free Trial';
+                document.getElementById('regBtn').className = 'btn btn-primary';
+            }
+        }
+
+        // --- Visual Controllers ---
+        
+        // Handle Switching Tabs (Sign In / Register)
+        function switchForm(form) {
+            currentTab = form;
+            
+            // Toggle form visual visibility
+            document.querySelectorAll('.form-panel').forEach(p => p.classList.remove('active'));
+            document.getElementById(`${form}Form`).classList.add('active');
+
+            // Handle recovery flow adjustments (Show/Hide top tab headers)
+            document.getElementById('tabNav').style.display = 'flex';
+            
+            // Adjust dynamic Badge display
+            if (form === 'register') {
+                document.getElementById('contextBadge').style.display = 'inline-flex';
+                document.getElementById('tabBtnLogin').classList.remove('active');
+                document.getElementById('tabBtnRegister').classList.add('active');
+            } else {
+                document.getElementById('contextBadge').style.display = 'none';
+                document.getElementById('tabBtnLogin').classList.add('active');
+                document.getElementById('tabBtnRegister').classList.remove('active');
+            }
+            
+            closeToast();
+        }
+
+        // Handle Entering Recovery mode
+        function enterRecoveryMode(e) {
+            if (e) e.preventDefault();
+            
+            // Switch panel states
+            document.querySelectorAll('.form-panel').forEach(p => p.classList.remove('active'));
+            document.getElementById('recoverForm').classList.add('active');
+            
+            // Hide Tabs
+            document.getElementById('tabNav').style.display = 'none';
+            
+            // Configure Recovery Header Badge
+            const badge = document.getElementById('contextBadge');
+            badge.innerText = 'Password Recovery';
+            badge.className = 'badge badge-recovery';
+            badge.style.display = 'inline-flex';
+
+            // Reset recovery stages
+            document.getElementById('recoveryStep1').style.display = 'block';
+            document.getElementById('recoveryStep2').style.display = 'none';
+            document.getElementById('recoverUsername').value = '';
+            document.getElementById('recoverSecretA').value = '';
+            document.getElementById('recoverNewPassword').value = '';
+            document.getElementById('recoverConfirmPassword').value = '';
+            
+            closeToast();
+        }
+
+        // Handle Leaving Recovery mode
+        function exitRecoveryMode() {
+            switchForm('login');
+        }
+
+        // Password Visibility Toggle
+        function togglePasswordVisibility(inputId) {
+            const input = document.getElementById(inputId);
+            const wrapper = input.parentElement;
+            const eyeIcon = wrapper.querySelector('.eye-toggle .eye-icon');
+            
+            if (input.type === 'password') {
+                input.type = 'text';
+                eyeIcon.textContent = 'visibility_off';
+            } else {
+                input.type = 'password';
+                eyeIcon.textContent = 'visibility';
+            }
+        }
+
+        // Filter / Sanitize username characters in real-time
+        function validateUsernameInput(inputEl) {
+            // Keep alphanumeric, dash, dot, and underscores only
+            inputEl.value = inputEl.value.replace(/[^a-zA-Z0-9_\-\.]/g, '');
+        }
+
+        // Real-Time Password Strength Estimator
+        function evaluatePasswordStrength(val) {
+            const bar = document.getElementById('strengthBar');
+            const text = document.getElementById('strengthText');
+
+            if (!val) {
+                bar.style.width = '0%';
+                text.textContent = 'Too short';
+                text.style.color = 'var(--text-muted)';
+                return;
+            }
+
+            const requirements = {
+                length: val.length >= 10,
+                upper: /[A-Z]/.test(val),
+                lower: /[a-z]/.test(val),
+                number: /[0-9]/.test(val),
+                special: /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(val)
+            };
+
+            let passed = 0;
+            for (let k in requirements) {
+                if (requirements[k]) passed++;
+            }
+
+            if (val.length < 6) {
+                bar.style.width = '15%';
+                bar.style.background = '#ef4444'; // deep red
+                text.textContent = 'Weak (Too short)';
+                text.style.color = '#ef4444';
+            } else if (passed <= 2) {
+                bar.style.width = '35%';
+                bar.style.background = '#f87171'; // light red
+                text.textContent = 'Weak';
+                text.style.color = '#f87171';
+            } else if (passed <= 4) {
+                bar.style.width = '70%';
+                bar.style.background = '#fbbf24'; // amber
+                text.textContent = 'Fair';
+                text.style.color = '#fbbf24';
+            } else {
+                bar.style.width = '100%';
+                bar.style.background = '#34d399'; // green
+                text.textContent = 'Strong';
+                text.style.color = '#34d399';
+            }
+        }
+
+        // Strength evaluation for recovery password
+        function evaluateRecoveryPasswordStrength(val) {
+            const bar = document.getElementById('recoverStrengthBar');
+            const text = document.getElementById('recoverStrengthText');
+
+            if (!val) {
+                bar.style.width = '0%';
+                text.textContent = 'Too short';
+                text.style.color = 'var(--text-muted)';
+                return;
+            }
+
+            const requirements = {
+                length: val.length >= 10,
+                upper: /[A-Z]/.test(val),
+                lower: /[a-z]/.test(val),
+                number: /[0-9]/.test(val),
+                special: /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(val)
+            };
+
+            let passed = 0;
+            for (let k in requirements) {
+                if (requirements[k]) passed++;
+            }
+
+            if (val.length < 6) {
+                bar.style.width = '15%';
+                bar.style.background = '#ef4444';
+                text.textContent = 'Weak (Too short)';
+                text.style.color = '#ef4444';
+            } else if (passed <= 2) {
+                bar.style.width = '35%';
+                bar.style.background = '#f87171';
+                text.textContent = 'Weak';
+                text.style.color = '#f87171';
+            } else if (passed <= 4) {
+                bar.style.width = '70%';
+                bar.style.background = '#fbbf24';
+                text.textContent = 'Fair';
+                text.style.color = '#fbbf24';
+            } else {
+                bar.style.width = '100%';
+                bar.style.background = '#34d399';
+                text.textContent = 'Strong';
+                text.style.color = '#34d399';
+            }
+        }
+
+        // Custom internal toast banner triggers
+        function showToast(msg, type = 'error') {
+            const alertBox = document.getElementById('toastAlert');
+            const alertIcon = document.getElementById('toastIcon');
+            const alertMsg = document.getElementById('toastMsg');
+
+            closeToast(); // Clean previous intervals
+
+            alertMsg.innerText = msg;
+            alertBox.className = `alert-box alert-${type} active`;
+            alertIcon.innerText = type === 'success' ? 'check_circle' : 'error';
+
+            if (type === 'success') {
+                // Automatically dismiss success notifications
+                timerToast = setTimeout(() => {
+                    closeToast();
+                }, 4000);
+            }
+        }
+
+        function closeToast() {
+            if (timerToast) clearTimeout(timerToast);
+            document.getElementById('toastAlert').classList.remove('active');
+        }
+
+        // Toggle Loading Button States
+        function setLoading(formId, isLoading) {
+            const form = document.getElementById(formId);
+            const btn = form.querySelector('button[type="submit"]') || form.querySelector('button.btn-primary');
+            const spinner = btn.querySelector('.spinner');
+            const textSpan = btn.querySelector('span');
+
+            if (isLoading) {
+                btn.disabled = true;
+                spinner.style.display = 'block';
+                if (textSpan) textSpan.style.opacity = '0.6';
+            } else {
+                btn.disabled = false;
+                spinner.style.display = 'none';
+                if (textSpan) textSpan.style.opacity = '1';
+            }
+        }
+
+        // Helper to sanitize outputs for UI
+        function cleanHTML(str) {
+            const p = document.createElement('p');
+            p.textContent = str;
+            return p.innerHTML;
+        }
+
+        // --- Controller Business Logic ---
+
+        // 1. UNIFIED LOGIN FORM SUBMISSION
+        async function handleLogin(e) {
+            e.preventDefault();
+            
+            const u = document.getElementById('loginUsername').value.trim();
+            const p = document.getElementById('loginPassword').value;
+
+            if (!u || !p) {
+                showToast('Please fill out all credentials.');
+                return;
+            }
+
+            setLoading('loginForm', true);
+            closeToast();
+
+            try {
+                const res = await fetch('index.php?action=login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: u, password: p })
+                });
+
+                if (!res.ok) {
+                    throw new Error('Authentication endpoint error.');
+                }
+
+                const result = await res.ok ? await res.json() : null;
+
+                if (result && result.success) {
+                    showToast('Login successful! Redirecting...', 'success');
+                    setTimeout(() => {
+                        window.location.href = result.data?.redirect || 'index.php';
+                    }, 1000);
+                } else {
+                    showToast(result?.message || 'Invalid username or password.');
+                    setLoading('loginForm', false);
+                }
+            } catch (err) {
+                console.error(err);
+                showToast('Connection to auth engine lost. Try again.');
+                setLoading('loginForm', false);
+            }
+        }
+
+        // 2. DYNAMIC REGISTRATION FORM SUBMISSION
+        async function handleRegister(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('regUsername').value.trim();
+            const password = document.getElementById('regPassword').value;
+            const confirm = document.getElementById('regConfirmPassword').value;
+            const token = document.getElementById('regToken').value;
+
+            // Form Validations
+            if (username.length < 3) {
+                showToast('Username must be at least 3 characters.');
+                return;
+            }
+
+            if (password.length < 10) {
+                showToast('Password must be at least 10 characters.');
+                return;
+            }
+
+            if (password !== confirm) {
+                showToast('Passwords do not match.');
+                return;
+            }
+
+            let endpoint = '';
+            let payload = {};
+
+            if (isInviteFlow) {
+                // Team Member Registration via invite token
+                endpoint = 'index.php?action=register_invited';
+                payload = { token, username, password };
+            } else {
+                // Admin Registration
+                const secret_q = document.getElementById('regSecretQ').value;
+                const secret_a = document.getElementById('regSecretA').value.trim();
+
+                if (!secret_q || !secret_a) {
+                    showToast('Security questions are required.');
+                    return;
+                }
+
+                endpoint = 'index.php?action=register_admin';
+                payload = { 
+                    username, 
+                    password, 
+                    secret_q, 
+                    secret_a,
+                    payment_status: 'trial' 
+                };
+            }
+
+            setLoading('registerForm', true);
+            closeToast();
+
+            try {
+                const res = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!res.ok) {
+                    throw new Error('Registration endpoint returned an error.');
+                }
+
+                const result = await res.json();
+
+                if (result && result.success) {
+                    showToast('Account successfully created! Loading workspace...', 'success');
+                    setTimeout(() => {
+                        window.location.href = 'index.php'; // Backend session is auto-started on success
+                    }, 1200);
+                } else {
+                    showToast(result?.message || 'Registration failed. Try again.');
+                    setLoading('registerForm', false);
+                }
+            } catch (err) {
+                console.error(err);
+                showToast('Could not register account. Server connection lost.');
+                setLoading('registerForm', false);
+            }
+        }
+
+        // 3. STEP-BY-STEP PASSWORD RECOVERY BUSINESS LOGIC
+
+        // Step 1: Input username, fetch Security Question
+        async function proceedToRecoveryStep2() {
+            const u = document.getElementById('recoverUsername').value.trim();
+
+            if (!u) {
+                showToast('Username is required.');
+                return;
+            }
+
+            // Toggle spinner on button manually
+            const verifyBtn = document.querySelector('#recoveryStep1 button');
+            const spinner = document.getElementById('recoveryStep1Spinner');
+            verifyBtn.disabled = true;
+            spinner.style.display = 'block';
+            closeToast();
+
+            try {
+                const res = await fetch('index.php?action=recover_password', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ step: 'get_question', username: u })
+                });
+
+                if (!res.ok) throw new Error('Password recovery endpoint failed.');
+
+                const result = await res.json();
+
+                if (result && result.success && result.data?.secret_q) {
+                    recoveryUsername = u;
+                    
+                    // Populate and toggle views
+                    document.getElementById('securityQuestionText').innerHTML = cleanHTML(result.data.secret_q);
+                    document.getElementById('recoveryStep1').style.display = 'none';
+                    document.getElementById('recoveryStep2').style.display = 'block';
+                } else {
+                    showToast(result?.message || 'Username not found in system databases.');
+                }
+            } catch (err) {
+                console.error(err);
+                showToast('Server connection error. Recovery failed.');
+            } finally {
+                verifyBtn.disabled = false;
+                spinner.style.display = 'none';
+            }
+        }
+
+        // Step 2: Answer Verification & Password Reset
+        async function handleRecoverySubmit(e) {
+            e.preventDefault();
+
+            const answer = document.getElementById('recoverSecretA').value.trim();
+            const newPassword = document.getElementById('recoverNewPassword').value;
+            const confirmPassword = document.getElementById('recoverConfirmPassword').value;
+
+            if (!answer || !newPassword || !confirmPassword) {
+                showToast('All recovery fields are required.');
+                return;
+            }
+
+            if (newPassword.length < 10) {
+                showToast('New password must be at least 10 characters.');
+                return;
+            }
+
+            if (newPassword !== confirmPassword) {
+                showToast('Passwords do not match.');
+                return;
+            }
+
+            setLoading('recoverForm', true);
+            closeToast();
+
+            try {
+                // Post step 'reset' containing credentials for full verification and update
+                const res = await fetch('index.php?action=recover_password', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        step: 'reset',
+                        username: recoveryUsername,
+                        secret_a: answer,
+                        new_password: newPassword
+                    })
+                });
+
+                if (!res.ok) throw new Error('Reset password endpoint error.');
+
+                const result = await res.json();
+
+                if (result && result.success) {
+                    showToast('Password updated! Redirecting to Sign In...', 'success');
+                    setTimeout(() => {
+                        exitRecoveryMode();
+                        setLoading('recoverForm', false);
+                    }, 2000);
+                } else {
+                    showToast(result?.message || 'Incorrect security answer.');
+                    setLoading('recoverForm', false);
+                }
+            } catch (err) {
+                console.error(err);
+                showToast('Network error during reset. Please try again.');
+                setLoading('recoverForm', false);
+            }
+        }
+    </script>
+</body>
+
+</html>

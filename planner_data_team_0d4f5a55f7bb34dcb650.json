@@ -1,0 +1,55 @@
+{
+    "grid": [
+        {
+            "id": "post_36c4f9de9ceb3267174a",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-01",
+            "hashtags": "",
+            "type": "image"
+        },
+        {
+            "id": "post_cfcd0b711f0f3335a75d",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-02",
+            "hashtags": "",
+            "type": "image",
+            "product_id": "",
+            "product_name": "",
+            "platform_id": "instagram"
+        },
+        {
+            "id": "post_dcb071d4e99580df0c8d",
+            "image": "",
+            "caption": "",
+            "schedule": "2026-01-08",
+            "hashtags": "",
+            "type": "image"
+        },
+        {
+            "id": "post_5060ca8d4c6e863a808f",
+            "image": "",
+            "caption": "",
+            "schedule": "",
+            "hashtags": "",
+            "type": "image"
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "mood": {
+        "palette": [
+            "#e2e8f0",
+            "#e2e8f0",
+            "#e2e8f0",
+            "#e2e8f0",
+            "#e2e8f0"
+        ],
+        "vibe": "Professional",
+        "notes": ""
+    }
+}
